@@ -8,8 +8,12 @@
 
 import UIKit
 
-struct EliqCheckboxViewModel{
+public struct EliqCheckboxViewModel{
     let title:String
+    
+    public init(title:String){
+        self.title = title
+    }
 }
 
 open class EliqCheckboxView:UIView{
@@ -32,14 +36,14 @@ open class EliqCheckboxView:UIView{
     }
     private var checkedImage: UIImage = #imageLiteral(resourceName: "checkbox")
     private var uncheckedImage: UIImage = #imageLiteral(resourceName: "unchecked_box")
-    var viewModel:EliqCheckboxViewModel!{
+    open var viewModel:EliqCheckboxViewModel!{
         didSet{
             viewLabel.text = viewModel.title
         }
     }
     
     //MARK: Overrides
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
     }

@@ -33,14 +33,14 @@ open class EliqLabel: UILabel {
     public enum LabelStyles:Int{
         case heading, subheading, paragraph, subtext
     }
-
+    
     override open var text: String?{
         didSet{
             setupText(for: text)
         }
     }
     
-    @IBInspectable var labelStyle:Int = 2{
+    @IBInspectable open var labelStyle:Int = 2{
         didSet{
             print(labelStyle)
             textStyle = EliqTextStyle.getTextStyleFor(labelStyle: LabelStyles(rawValue: labelStyle)!, textColor: textColor)
@@ -52,14 +52,14 @@ open class EliqLabel: UILabel {
         }
     }
     
-    convenience init(labelStyle:LabelStyles, textColor:UIColor){
+    convenience public init(labelStyle:LabelStyles, textColor:UIColor){
         self.init(frame: CGRect.zero)
         
         self.textColor = textColor
         self.labelStyle = labelStyle.rawValue
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
     }
     
@@ -67,8 +67,8 @@ open class EliqLabel: UILabel {
         super.init(coder: aDecoder)
     }
     
-    var completionHandler:((String?)->())?
-    var highligtedTexts:[(hg:String,link:String?)] = []
+    open var completionHandler:((String?)->())?
+    open var highligtedTexts:[(hg:String,link:String?)] = []
     
     
     private func setupText(for text:String?){
@@ -84,7 +84,7 @@ open class EliqLabel: UILabel {
                 let link = String(atts[0]).find(pattern: "\"(.*?)\"")?.first?.replacingOccurrences(of: "\"", with: "")
                 highligtedTexts.append((highlightedText, link))
                 edittedText = edittedText.replacingOccurrences(of: "\(atts[0])>\(atts[1])>", with: highlightedText)
-
+                
             }
             let attributedString = NSMutableAttributedString(string: edittedText)
             for text in highligtedTexts{
@@ -113,5 +113,5 @@ open class EliqLabel: UILabel {
             }
         }
     }
-
+    
 }

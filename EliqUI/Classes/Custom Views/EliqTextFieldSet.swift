@@ -12,6 +12,12 @@ public struct EliqTextFieldSetViewModel{
     var numberOfTextField:Int
     var prePopulatedValue:String?
     var maxLength:Int
+    
+    public init(numberOfTextField:Int, prePopulatedValue:String?, maxLength:Int){
+        self.numberOfTextField = numberOfTextField
+        self.prePopulatedValue = prePopulatedValue
+        self.maxLength = maxLength
+    }
 }
 
 open class EliqBackwardTextField:UITextField{
@@ -19,13 +25,13 @@ open class EliqBackwardTextField:UITextField{
     private var cornerRadius:CGFloat = 0.0
     open var completionHandlerOnDelete:((UITextField)->())?
     
-    convenience init(frame:CGRect, cornerRadius:CGFloat) {
+    convenience public init(frame:CGRect, cornerRadius:CGFloat) {
         self.init(frame: frame)
         
         self.cornerRadius = cornerRadius
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
     }
     

@@ -9,7 +9,7 @@
 import UIKit
 
 open class EliqTextField: UIView {
-
+    
     let kCONTENT_XIB_NAME = "EliqTextField"
     
     @IBOutlet var containerView: UIView!

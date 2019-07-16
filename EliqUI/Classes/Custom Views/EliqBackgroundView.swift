@@ -13,7 +13,7 @@ open class EliqBackgroundView: UIView {
     enum BackgroundTypes:Int{
         case plain, gradient
     }
-
+    
     open var brand:Brand!{
         get{
             return EliqModelsConfiguration.shared.brand
@@ -29,14 +29,14 @@ open class EliqBackgroundView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-//        setupBackgroundColorWith(backgroundType: BackgroundTypes(rawValue: backgroundType)!)
+        //        setupBackgroundColorWith(backgroundType: BackgroundTypes(rawValue: backgroundType)!)
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-//        setupBackgroundColorWith(backgroundType: BackgroundTypes(rawValue: backgroundType)!)
+        //        setupBackgroundColorWith(backgroundType: BackgroundTypes(rawValue: backgroundType)!)
     }
-
+    
     private func setupBackgroundColorWith(backgroundType:BackgroundTypes){
         if backgroundType == .gradient{
             setupGradient()
@@ -49,5 +49,5 @@ open class EliqBackgroundView: UIView {
         let cgColors: [CGColor] = [brand.topBarLeftColor.cgColor, brand.topBarRightColor.cgColor]
         self.setGradient(colors: cgColors, angle: brand.gradientAngle, alphaValue: 1.0)
     }
-
+    
 }

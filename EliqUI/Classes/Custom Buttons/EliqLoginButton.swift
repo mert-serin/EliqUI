@@ -14,16 +14,16 @@ public typealias EliqLoginButtonCompletionHandler = ((String) -> Void)
 
 open class EliqLoginButton:UIView{
     
-    lazy var button:EliqButton = {
+    lazy open var button:EliqButton = {
         var b = EliqButton(type: UIButton.ButtonType.system)
         b.addTarget(self, action: #selector(onTappedButton), for: .touchUpInside)
         return b
     }()
     
-    fileprivate var completionHandler:EliqLoginButtonCompletionHandler?
-    fileprivate var viewModel:LoginButtonActionModel!
+    open var completionHandler:EliqLoginButtonCompletionHandler?
+    open var viewModel:LoginButtonActionModel!
     
-    convenience init(model: LoginButtonActionModel, completionHandler:EliqLoginButtonCompletionHandler? = nil){
+    convenience public init(model: LoginButtonActionModel, completionHandler:EliqLoginButtonCompletionHandler? = nil){
         self.init(frame: CGRect.zero)
         
         isUserInteractionEnabled = true
@@ -66,7 +66,7 @@ open class EliqLoginButtonView: EliqLoginButton{
         l.textAlignment = .center
         return l
     }()
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -119,7 +119,7 @@ open class EliqLoginButtonView: EliqLoginButton{
         }
         button.roundCornersWith(cornerRadius: button.frame.height / 2)
     }
-
+    
 }
 
 open class EliqLoginBottomButtonView:EliqLoginButton{
@@ -211,7 +211,7 @@ open class EliqContactOptionView: EliqLoginButton {
                 make.height.equalTo(viewDescriptionLabel.frame.maxY + 20)
             }
         }
-
+        
     }
     
     override func prepareUI() {

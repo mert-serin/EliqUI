@@ -13,7 +13,7 @@ open class EliqScrollableStackView: UIView {
     enum StackTypes:Int{
         case horizontal, vertical
     }
-
+    
     lazy open var scrollView:UIScrollView = {
         var s = UIScrollView()
         s.backgroundColor = .clear
@@ -54,7 +54,7 @@ open class EliqScrollableStackView: UIView {
             make.height.equalTo(self.scrollView)
         }
     }
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupUI()
@@ -91,5 +91,5 @@ open class EliqScrollableStackView: UIView {
         
         lastAddedView = view
     }
-
+    
 }

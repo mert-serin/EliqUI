@@ -12,6 +12,12 @@ public struct EliqAlertViewModel{
     var title:String? = "Warning"
     var message:String?
     var alertButtons:[EliqAlertViewButtonModel] = []
+    
+    public init(title:String? = "Warning", message:String?, alertButtons:[EliqAlertViewButtonModel]){
+        self.title = title
+        self.message = message
+        self.alertButtons = alertButtons
+    }
 }
 
 public struct EliqAlertViewButtonModel{
@@ -19,6 +25,13 @@ public struct EliqAlertViewButtonModel{
     var buttonBackgroundColor:UIColor
     var buttonTextColor:UIColor
     var completion:(()->())?
+    
+    public init(buttonTitle:String, buttonBackgroundColor:UIColor, buttonTextColor:UIColor, completion:(()->())?){
+        self.buttonTitle = buttonTitle
+        self.buttonBackgroundColor = buttonBackgroundColor
+        self.buttonTextColor = buttonTextColor
+        self.completion = completion
+    }
 }
 
 open class EliqAlertViewController: UIViewController {
@@ -27,14 +40,14 @@ open class EliqAlertViewController: UIViewController {
         case appear, dismiss
     }
     
-    lazy var containerView:UIView = {
+    lazy open var containerView:UIView = {
         var v = UIView()
         v.backgroundColor = .white
         v.layer.cornerRadius = 8
         return v
     }()
     
-    lazy var errorLabel:EliqLabel = {
+    lazy open var errorLabel:EliqLabel = {
         var l = EliqLabel(labelStyle: EliqLabel.LabelStyles.paragraph, textColor: UIColor.black)
         l.textAlignment = .center
         l.numberOfLines = 0
@@ -69,7 +82,7 @@ open class EliqAlertViewController: UIViewController {
     
     override open func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.view.addSubview(containerView)
         self.containerView.addSubview(errorLabel)
         
@@ -97,7 +110,7 @@ open class EliqAlertViewController: UIViewController {
             }
         }
     }
-
+    
     override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let firstTouch = touches.first {
             let hitView = self.view.hitTest(firstTouch.location(in: self.view), with: event)
@@ -109,7 +122,7 @@ open class EliqAlertViewController: UIViewController {
         }
     }
     
-    func animateViews(animationType:AnimationType, completion: (()->())?){
+    open func animateViews(animationType:AnimationType, completion: (()->())?){
         self.containerView.snp.updateConstraints({ (make) in
             if animationType == .appear{
                 make.centerY.equalTo(self.view)
@@ -182,5 +195,5 @@ open class EliqAlertViewController: UIViewController {
         
         lastAddedButton = leftButton
     }
-
+    
 }
