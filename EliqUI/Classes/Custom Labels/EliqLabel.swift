@@ -28,13 +28,13 @@ struct EliqTextStyle{
     }
 }
 
-class EliqLabel: UILabel {
+open class EliqLabel: UILabel {
     
-    enum LabelStyles:Int{
+    public enum LabelStyles:Int{
         case heading, subheading, paragraph, subtext
     }
 
-    override var text: String?{
+    override open var text: String?{
         didSet{
             setupText(for: text)
         }
@@ -63,7 +63,7 @@ class EliqLabel: UILabel {
         super.init(frame: frame)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     

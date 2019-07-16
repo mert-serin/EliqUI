@@ -8,19 +8,19 @@
 
 import UIKit
 import EliqModels
-class EliqBackgroundView: UIView {
+open class EliqBackgroundView: UIView {
     
     enum BackgroundTypes:Int{
         case plain, gradient
     }
 
-    var brand:Brand!{
+    open var brand:Brand!{
         get{
             return EliqModelsConfiguration.shared.brand
         }
     }
     
-    @IBInspectable var backgroundType:Int = 0{
+    @IBInspectable open var backgroundType:Int = 0{
         didSet{
             setupBackgroundColorWith(backgroundType: BackgroundTypes(rawValue: backgroundType)!)
         }
@@ -32,7 +32,7 @@ class EliqBackgroundView: UIView {
 //        setupBackgroundColorWith(backgroundType: BackgroundTypes(rawValue: backgroundType)!)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
 //        setupBackgroundColorWith(backgroundType: BackgroundTypes(rawValue: backgroundType)!)
     }

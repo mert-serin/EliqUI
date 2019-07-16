@@ -8,19 +8,19 @@
 
 import UIKit
 
-class EliqScrollableStackView: UIView {
+open class EliqScrollableStackView: UIView {
     
     enum StackTypes:Int{
         case horizontal, vertical
     }
 
-    lazy var scrollView:UIScrollView = {
+    lazy open var scrollView:UIScrollView = {
         var s = UIScrollView()
         s.backgroundColor = .clear
         return s
     }()
     
-    lazy var contentView:UIView = {
+    lazy open var contentView:UIView = {
         var v = UIView()
         v.backgroundColor = .clear
         return v
@@ -60,12 +60,12 @@ class EliqScrollableStackView: UIView {
         setupUI()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupUI()
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         
         if lastAddedView != nil{

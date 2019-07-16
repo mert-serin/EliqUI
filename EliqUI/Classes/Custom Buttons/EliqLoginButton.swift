@@ -12,7 +12,7 @@ import EliqModels
 
 typealias EliqLoginButtonCompletionHandler = ((String) -> Void)
 
-class EliqLoginButton:UIView{
+open class EliqLoginButton:UIView{
     
     lazy var button:EliqButton = {
         var b = EliqButton(type: UIButton.ButtonType.system)
@@ -58,7 +58,7 @@ class EliqLoginButton:UIView{
     }
 }
 
-class EliqLoginButtonView: EliqLoginButton{
+open class EliqLoginButtonView: EliqLoginButton{
     
     lazy var buttonLabel:EliqLabel = {
         var l = EliqLabel(labelStyle: EliqLabel.LabelStyles.paragraph, textColor: UIColor.white)
@@ -71,7 +71,7 @@ class EliqLoginButtonView: EliqLoginButton{
         super.init(frame: frame)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -109,7 +109,7 @@ class EliqLoginButtonView: EliqLoginButton{
         button.setTitle(viewModel.buttonText, for: .normal)
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         
         if viewModel.text != nil{
@@ -122,7 +122,7 @@ class EliqLoginButtonView: EliqLoginButton{
 
 }
 
-class EliqLoginBottomButtonView:EliqLoginButton{
+open class EliqLoginBottomButtonView:EliqLoginButton{
     
     lazy var buttonLabel:EliqLabel = {
         var l = EliqLabel(labelStyle: .paragraph, textColor: EliqModelsConfiguration.shared.brand.topBarLeftColor)
@@ -167,7 +167,7 @@ class EliqLoginBottomButtonView:EliqLoginButton{
     }
 }
 
-class EliqContactOptionView: EliqLoginButton {
+open class EliqContactOptionView: EliqLoginButton {
     
     @IBOutlet var containerView: UIView!
     @IBOutlet private weak var leftImageView: UIImageView!{
@@ -187,7 +187,7 @@ class EliqContactOptionView: EliqLoginButton {
         commonInit()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         print("qwe")
         commonInit()
@@ -199,7 +199,7 @@ class EliqContactOptionView: EliqLoginButton {
         containerView.fixInView(self)
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutIfNeeded()
         
         if  viewModel.text == nil{

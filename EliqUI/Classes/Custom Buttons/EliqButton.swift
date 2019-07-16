@@ -8,11 +8,12 @@
 
 import UIKit
 import EliqModels
-class EliqButton: UIButton {
+
+open class EliqButton: UIButton {
     
-    @IBInspectable var buttonBackgroundColor:UIColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-    @IBInspectable var buttonCurrentTitleColor: UIColor = EliqModelsConfiguration.shared.brand.topBarLeftColor
-    @IBInspectable var buttonCornerRadius:CGFloat = 0.0{
+    @IBInspectable open var buttonBackgroundColor:UIColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+    @IBInspectable open var buttonCurrentTitleColor: UIColor = EliqModelsConfiguration.shared.brand.topBarLeftColor
+    @IBInspectable open var buttonCornerRadius:CGFloat = 0.0{
         didSet{
             layoutSubviews()
         }
@@ -30,7 +31,7 @@ class EliqButton: UIButton {
         setupButtonUI()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupButtonUI()
     }
@@ -49,7 +50,7 @@ class EliqButton: UIButton {
         }
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         
         self.layer.cornerRadius = buttonCornerRadius

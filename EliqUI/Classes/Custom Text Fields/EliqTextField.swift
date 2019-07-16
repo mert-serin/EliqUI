@@ -8,33 +8,33 @@
 
 import UIKit
 
-class EliqTextField: UIView {
+open class EliqTextField: UIView {
 
     let kCONTENT_XIB_NAME = "EliqTextField"
     
     @IBOutlet var containerView: UIView!
     @IBOutlet weak var textField: UITextField!
     @IBOutlet private weak var textFieldLabel: EliqLabel!
-    var keyboardType:UIKeyboardType{
+    open var keyboardType:UIKeyboardType{
         get{
             return textField.keyboardType
         }set{
             textField.keyboardType = newValue
         }
     }
-    var textAlignment:NSTextAlignment = .center{
+    open var textAlignment:NSTextAlignment = .center{
         didSet{
             textField.textAlignment = textAlignment
         }
     }
-    var textFieldRadius:CGFloat{
+    open var textFieldRadius:CGFloat{
         get{
             return textField.layer.cornerRadius
         }set{
             textField.layer.cornerRadius = newValue
         }
     }
-    var textFieldColor:UIColor?{
+    open var textFieldColor:UIColor?{
         get{
             return textField.textColor
         }set{
@@ -42,7 +42,7 @@ class EliqTextField: UIView {
         }
     }
     
-    var text:String{
+    open var text:String{
         get{
             return textField.text ?? ""
         }set{
@@ -55,11 +55,11 @@ class EliqTextField: UIView {
         commonInit()
     }
     
-    override func prepareForInterfaceBuilder() {
+    override open func prepareForInterfaceBuilder() {
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         commonInit()
     }

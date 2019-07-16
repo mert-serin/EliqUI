@@ -8,16 +8,16 @@
 
 import UIKit
 
-struct EliqTextFieldSetViewModel{
+public struct EliqTextFieldSetViewModel{
     var numberOfTextField:Int
     var prePopulatedValue:String?
     var maxLength:Int
 }
 
-class EliqBackwardTextField:UITextField{
+open class EliqBackwardTextField:UITextField{
     
     private var cornerRadius:CGFloat = 0.0
-    var completionHandlerOnDelete:((UITextField)->())?
+    open var completionHandlerOnDelete:((UITextField)->())?
     
     convenience init(frame:CGRect, cornerRadius:CGFloat) {
         self.init(frame: frame)
@@ -29,17 +29,17 @@ class EliqBackwardTextField:UITextField{
         super.init(frame: frame)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    override func deleteBackward() {
+    override open func deleteBackward() {
         super.deleteBackward()
         
         completionHandlerOnDelete?(self)
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         
         self.layer.cornerRadius = cornerRadius
@@ -47,7 +47,7 @@ class EliqBackwardTextField:UITextField{
     
 }
 
-class EliqTextFieldSet: UIView {
+open class EliqTextFieldSet: UIView {
     
     @IBOutlet private var containerView: UIView!
     @IBOutlet private weak var stackView: UIStackView!
@@ -55,14 +55,14 @@ class EliqTextFieldSet: UIView {
     let kCONTENT_XIB_NAME = "EliqTextFieldSet"
     private var textFields:[UITextField] = []
     @IBInspectable var maxLength:Int = 1
-    var keyboardType:UIKeyboardType = .numberPad{
+    open var keyboardType:UIKeyboardType = .numberPad{
         didSet{
             textFields.forEach { (textField) in
                 textField.keyboardType = keyboardType
             }
         }
     }
-    var viewModel:EliqTextFieldSetViewModel!{
+    open var viewModel:EliqTextFieldSetViewModel!{
         didSet{
             for i in 0..<viewModel.numberOfTextField{
                 let customTextField = EliqBackwardTextField(frame: CGRect(x: 0, y: 0, width: 0, height: 50), cornerRadius: 5)
@@ -97,7 +97,7 @@ class EliqTextFieldSet: UIView {
         commonInit()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         commonInit()
     }
@@ -152,7 +152,7 @@ class EliqTextFieldSet: UIView {
 }
 
 extension EliqTextFieldSet:UITextFieldDelegate{
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         let maxLength = self.maxLength
         let currentString: NSString = textField.text! as NSString
         let newString: NSString =

@@ -12,9 +12,9 @@ struct EliqCheckboxViewModel{
     let title:String
 }
 
-class EliqCheckboxView:UIView{
+open class EliqCheckboxView:UIView{
     
-    @IBOutlet var containerView: UIView!
+    @IBOutlet open var containerView: UIView!
     @IBOutlet private weak var leftImageView: UIImageView!
     @IBOutlet private weak var viewLabel: EliqLabel!
     
@@ -44,7 +44,7 @@ class EliqCheckboxView:UIView{
         commonInit()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         commonInit()
     }

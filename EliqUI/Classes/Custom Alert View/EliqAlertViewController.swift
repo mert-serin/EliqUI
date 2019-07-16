@@ -8,22 +8,22 @@
 
 import UIKit
 
-struct EliqAlertViewModel{
+public struct EliqAlertViewModel{
     var title:String? = "Warning"
     var message:String?
     var alertButtons:[EliqAlertViewButtonModel] = []
 }
 
-struct EliqAlertViewButtonModel{
+public struct EliqAlertViewButtonModel{
     var buttonTitle:String
     var buttonBackgroundColor:UIColor
     var buttonTextColor:UIColor
     var completion:(()->())?
 }
 
-class EliqAlertViewController: UIViewController {
+open class EliqAlertViewController: UIViewController {
     
-    enum AnimationType{
+    public enum AnimationType{
         case appear, dismiss
     }
     
@@ -63,11 +63,11 @@ class EliqAlertViewController: UIViewController {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
 
         self.view.addSubview(containerView)
@@ -88,7 +88,7 @@ class EliqAlertViewController: UIViewController {
         }
     }
     
-    override func viewDidLayoutSubviews() {
+    override open func viewDidLayoutSubviews() {
         containerView.snp.updateConstraints { (make) in
             if lastAddedButton != nil{
                 make.height.equalTo(lastAddedButton!.frame.maxY + 20)
@@ -98,7 +98,7 @@ class EliqAlertViewController: UIViewController {
         }
     }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let firstTouch = touches.first {
             let hitView = self.view.hitTest(firstTouch.location(in: self.view), with: event)
             if !(hitView === containerView){
