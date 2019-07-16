@@ -41,7 +41,7 @@ open class EliqAlertViewController: UIViewController {
         return l
     }()
     
-    var errorModel:EliqAlertViewModel!{
+    open var errorModel:EliqAlertViewModel!{
         didSet{
             errorLabel.text = errorModel.message
             setupButtons()

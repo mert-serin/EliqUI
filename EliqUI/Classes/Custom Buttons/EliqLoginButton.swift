@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 import EliqModels
 
-typealias EliqLoginButtonCompletionHandler = ((String) -> Void)
+public typealias EliqLoginButtonCompletionHandler = ((String) -> Void)
 
 open class EliqLoginButton:UIView{
     
@@ -31,7 +31,7 @@ open class EliqLoginButton:UIView{
         self.completionHandler = completionHandler
     }
     
-    static func getLoginButtonView(for viewModel: LoginButtonActionModel, completion: @escaping EliqLoginButtonCompletionHandler) -> EliqLoginButton{
+    public static func getLoginButtonView(for viewModel: LoginButtonActionModel, completion: @escaping EliqLoginButtonCompletionHandler) -> EliqLoginButton{
         var view:EliqLoginButton!{
             didSet{
                 view.prepareUI()
