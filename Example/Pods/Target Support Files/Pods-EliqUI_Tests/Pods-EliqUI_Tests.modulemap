@@ -1,0 +1,6 @@
+framework module Pods_EliqUI_Tests {
+  umbrella header "Pods-EliqUI_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

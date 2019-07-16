@@ -1,0 +1,30 @@
+PODS:
+  - EliqModels (0.1.4)
+  - EliqUI (0.1.0):
+    - EliqModels
+    - SnapKit (~> 5.0)
+  - SnapKit (5.0.0)
+
+DEPENDENCIES:
+  - EliqModels
+  - EliqUI (from `../`)
+  - SnapKit (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+  https://github.com/mert-serin/PodSpec:
+    - EliqModels
+
+EXTERNAL SOURCES:
+  EliqUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EliqModels: 09455cc85c18b7c9ca03f4c4d38751c672f4bd5c
+  EliqUI: 95bd36e9600ba14a40d069de85710844e975889b
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+
+PODFILE CHECKSUM: 9ba0cd97bac6ea7e4bf5b010e29da1f185207003
+
+COCOAPODS: 1.7.4

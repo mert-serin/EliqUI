@@ -1,0 +1,32 @@
+{
+  "name": "EliqUI",
+  "version": "0.1.0",
+  "summary": "A short description of EliqUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mert-serin/EliqUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mert-serin": "mert-serin@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/mert-serin/EliqUI.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "EliqUI/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.0"
+    ],
+    "EliqModels": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

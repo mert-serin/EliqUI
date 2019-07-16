@@ -1,0 +1,6 @@
+framework module EliqModels {
+  umbrella header "EliqModels-umbrella.h"
+
+  export *
+  module * { export * }
+}

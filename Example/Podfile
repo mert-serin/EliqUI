@@ -1,6 +1,10 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/mert-serin/PodSpec.git'
+
 target 'EliqUI_Tests' do
   pod 'EliqUI', :path => '../'
-  
+  pod 'SnapKit', '~> 5.0'
+  pod 'EliqModels'
   
 end

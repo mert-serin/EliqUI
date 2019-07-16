@@ -1,0 +1,6 @@
+framework module EliqUI {
+  umbrella header "EliqUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
