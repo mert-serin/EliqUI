@@ -77,7 +77,7 @@ open class EliqScrollableStackView: UIView {
         }
     }
     
-    func addView(view:UIView, height:CGFloat){
+    open func addView(view:UIView, height:CGFloat){
         self.contentView.addSubview(view)
         view.snp.makeConstraints { (make) in
             make.left.right.equalTo(0)
