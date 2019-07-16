@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EliqUI_Tests' do
+  pod 'EliqUI', :path => '../'
+  
+  
+end
