@@ -60,7 +60,7 @@ open class EliqTextFieldSet: UIView {
     
     let kCONTENT_XIB_NAME = "EliqTextFieldSet"
     private var textFields:[UITextField] = []
-    @IBInspectable var maxLength:Int = 1
+    @IBInspectable open var maxLength:Int = 1
     open var keyboardType:UIKeyboardType = .numberPad{
         didSet{
             textFields.forEach { (textField) in
@@ -98,7 +98,7 @@ open class EliqTextFieldSet: UIView {
     
     
     //MARK: Overrides
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
     }
@@ -108,11 +108,7 @@ open class EliqTextFieldSet: UIView {
         commonInit()
     }
     
-    private func setupUI(){
-        
-    }
-    
-    func getString() -> String{
+    open func getString() -> String{
         var string = ""
         textFields.forEach { (textField) in
             string += textField.text ?? ""
@@ -122,10 +118,9 @@ open class EliqTextFieldSet: UIView {
     }
     
     private func commonInit() {
-        let bundle = Bundle(for: EliqTextField.self)
+        let bundle = Bundle(for: EliqTextFieldSet.self)
         bundle.loadNibNamed(kCONTENT_XIB_NAME, owner: self, options: nil)
         containerView.fixInView(self)
-        setupUI()
     }
     
     @objc private func onChangedValueTextField(textField:UITextField){
