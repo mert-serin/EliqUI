@@ -8,7 +8,7 @@ import EliqModels
 
 open class EliqOnboardingFactory{
     
-    static func getViewFor(onboardingModel:OnboardingModel) -> EliqOnboardingParentView{
+    public static func getViewFor(onboardingModel:OnboardingModel) -> EliqOnboardingParentView{
         if onboardingModel.links == nil{
             let view = EliqOnboardingView(frame: CGRect.zero)
             view.viewModel = onboardingModel
