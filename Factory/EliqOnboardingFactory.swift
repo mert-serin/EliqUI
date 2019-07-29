@@ -19,5 +19,4 @@ open class EliqOnboardingFactory{
             return view
         }
     }
-    
 }
