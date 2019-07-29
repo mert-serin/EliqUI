@@ -52,6 +52,15 @@ class EliqOnboardingWithButtonView: EliqOnboardingParentView,ViewImpl {
         }
     }
     
+    override public init(frame: CGRect) {
+        super.init(frame: frame)
+        commonInit()
+    }
+    
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
     func commonInit() {
         let bundle = Bundle(for: EliqOnboardingWithButtonView.self)
         bundle.loadNibNamed(kCONTENT_XIB_NAME, owner: self, options: nil)

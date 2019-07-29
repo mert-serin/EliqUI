@@ -33,7 +33,7 @@ open class EliqOnboardingView: EliqOnboardingParentView,ViewImpl {
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
-        containerView.fixInView(self)
+        commonInit()
     }
     
     required public init?(coder aDecoder: NSCoder) {
