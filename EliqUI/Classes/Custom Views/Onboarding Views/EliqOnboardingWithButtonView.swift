@@ -8,7 +8,7 @@
 import UIKit
 import EliqModels
 
-class EliqOnboardingWithButtonView: UIView,ViewImpl {
+class EliqOnboardingWithButtonView: EliqOnboardingParentView,ViewImpl {
     
     @IBOutlet private weak var skipButton: EliqButton!
     @IBOutlet private weak var descriptionLabel: EliqLabel!
@@ -19,9 +19,6 @@ class EliqOnboardingWithButtonView: UIView,ViewImpl {
     @IBOutlet var containerView: UIView!
     
     let kCONTENT_XIB_NAME = "EliqOnboardingWithButtonView"
-    
-    open var tapButtonAction: ((_ identifier:String) -> ())!
-    open var skipButtonAction: (() -> ())?
     open var estimatedButtonHeight:CGFloat = 50
     
     open var viewModel:OnboardingModel!{

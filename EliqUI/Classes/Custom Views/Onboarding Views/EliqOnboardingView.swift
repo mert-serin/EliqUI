@@ -8,7 +8,12 @@
 import UIKit
 import EliqModels
 
-open class EliqOnboardingView: UIView,ViewImpl {
+open class EliqOnboardingParentView:UIView{
+    open var skipButtonAction: (() -> ())?
+    open var tapButtonAction: ((_ identifier:String) -> ())?
+}
+
+open class EliqOnboardingView: EliqOnboardingParentView,ViewImpl {
 
     @IBOutlet private weak var skipButton: UIButton!
     @IBOutlet private weak var descriptionLabel: UILabel!
@@ -18,7 +23,6 @@ open class EliqOnboardingView: UIView,ViewImpl {
     
     let kCONTENT_XIB_NAME = "EliqOnboardingView"
     
-    open var skipButtonAction: (() -> ())?
     open var viewModel:OnboardingModel!{
         didSet{
             skipButton.isHidden = viewModel.isSkippable
