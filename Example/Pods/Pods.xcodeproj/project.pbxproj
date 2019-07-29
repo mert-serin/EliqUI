@@ -27,7 +27,7 @@
 		3F2849CDE027A250EA31C2B59F4065E3 /* EliqOnboardingWithButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D6C94C2B93E598605B37656BDE72B /* EliqOnboardingWithButtonView.swift */; };
 		44DC744E92653BCC10FDEFEAFFF2D0E4 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0304A8949A43A007614819C8AFE302 /* ConstraintConfig.swift */; };
 		47A3AEC0931F711D293E86D12683774E /* EliqCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89FE7E3BAA029537A7945E23598A9B /* EliqCheckboxView.swift */; };
-		4EAFFF3522EF1CF600E34A95 /* EliqOnboardingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFFF3222EF1CE300E34A95 /* EliqOnboardingFactory.swift */; };
+		4EAFFF3822EF220000E34A95 /* EliqOnboardingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFFF3722EF220000E34A95 /* EliqOnboardingFactory.swift */; };
 		541C16EDDDA225B9627FD3952B638636 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84B9BB2B0E0A180D927F3D70679C433 /* ConstraintLayoutGuide+Extensions.swift */; };
 		5D94F43990DDB891D84B9594410A0D64 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B56FC87806B79ECD23FA86C9EFFFD1 /* UILayoutSupport+Extensions.swift */; };
 		5DA45317F7E157C3AE1ADF31A8764FCD /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347DF859BA12E8548A1D383B52E3630 /* ConstraintPriorityTarget.swift */; };
@@ -151,7 +151,7 @@
 		4D81151CAD21D7F77655AA68628CE894 /* ViewImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewImpl.swift; sourceTree = "<group>"; };
 		4E59A4256AD75DAB01FE2801EB36BEB1 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		4EACD6194C9FC74B172BDD8FAE182C4A /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		4EAFFF3222EF1CE300E34A95 /* EliqOnboardingFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliqOnboardingFactory.swift; sourceTree = "<group>"; };
+		4EAFFF3722EF220000E34A95 /* EliqOnboardingFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EliqOnboardingFactory.swift; sourceTree = "<group>"; };
 		4EDB6855EF7B6404E5CC427D9E10257A /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		4EEBA84F5F6244708B63BE484CD739EA /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		4F1CBD94ACE8725949B942378CA5689B /* EliqOnboardingWithButtonView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqOnboardingWithButtonView.xib; sourceTree = "<group>"; };
@@ -334,10 +334,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4EAFFF3122EF1CC800E34A95 /* Factory */ = {
+		4EAFFF3622EF220000E34A95 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				4EAFFF3222EF1CE300E34A95 /* EliqOnboardingFactory.swift */,
+				4EAFFF3722EF220000E34A95 /* EliqOnboardingFactory.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -371,13 +371,13 @@
 		6C9EDE461E2FFD1D92087E432432286F /* EliqUI */ = {
 			isa = PBXGroup;
 			children = (
-				4EAFFF3122EF1CC800E34A95 /* Factory */,
 				8331BE87081F861E67A79456E08E7769 /* Custom Alert View */,
 				4F3374E1E6AABB04A2C692C609C53F13 /* Custom Buttons */,
 				D86EE2E1E333A3B837EB297EFCCF0F54 /* Custom Labels */,
 				3002F01EA38F1941DA600D4C5046F1E0 /* Custom Text Fields */,
 				60C2EC22146D31EB1E043729360381EF /* Custom Views */,
 				A915EF6948AF8BC5CDC4857D3725A085 /* Extensions */,
+				4EAFFF3622EF220000E34A95 /* Factory */,
 				ADE51341734A42D74265862DF4D05813 /* Pod */,
 				D0379065110B08DFB23AD1DB6355ABE1 /* Protocols */,
 				ABCD1920D109E048F88D933AE166B727 /* Support Files */,
@@ -792,7 +792,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE451C4D61D84B3FA7E799583DCCACE7 /* EliqAlertViewController.swift in Sources */,
-				4EAFFF3522EF1CF600E34A95 /* EliqOnboardingFactory.swift in Sources */,
+				4EAFFF3822EF220000E34A95 /* EliqOnboardingFactory.swift in Sources */,
 				97955C93D7A754842F477F776DB4CE8C /* EliqBackgroundView.swift in Sources */,
 				FCFE141582C4A4084DA6BEB32B960144 /* EliqButton.swift in Sources */,
 				47A3AEC0931F711D293E86D12683774E /* EliqCheckboxView.swift in Sources */,
