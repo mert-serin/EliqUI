@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EliqOnboardingView" customModule="EliqUI" customModuleProvider="target">
             <connections>
-                <outlet property="containerView" destination="iN0-l3-epB" id="t2r-xl-mQj"/>
+                <outlet property="containerView" destination="iN0-l3-epB" id="Im6-Dm-Xp1"/>
                 <outlet property="descriptionLabel" destination="ane-Ro-hQ0" id="U8k-Qz-Igh"/>
                 <outlet property="logoImageView" destination="ro9-I2-MhV" id="8vB-9N-IZU"/>
                 <outlet property="skipButton" destination="4rZ-i1-ffu" id="7qg-li-oma"/>
