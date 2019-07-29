@@ -17,6 +17,7 @@ open class EliqScrollableStackView: UIView {
     lazy open var scrollView:UIScrollView = {
         var s = UIScrollView()
         s.backgroundColor = .clear
+        s.isPagingEnabled = isPagingEnabled
         return s
     }()
     
@@ -28,11 +29,18 @@ open class EliqScrollableStackView: UIView {
     
     private var lastAddedView:UIView?
     @IBInspectable private var stackType:Int = 1
+    @IBInspectable private var isPagingEnabled:Bool = false{
+        didSet{
+            scrollView.isPagingEnabled = isPagingEnabled
+        }
+    }
     @IBInspectable private var padding:CGFloat = 0.0
     
-    convenience init(padding:CGFloat) {
+    convenience init(padding:CGFloat, isPagingEnabled:Bool = false, stackType:Int) {
         self.init(frame: CGRect.zero)
         self.padding = padding
+        self.isPagingEnabled = isPagingEnabled
+        self.stackType = stackType
         setupUI()
     }
     
@@ -70,22 +78,32 @@ open class EliqScrollableStackView: UIView {
         
         if lastAddedView != nil{
             if StackTypes(rawValue: stackType) == .horizontal{
-                
+                scrollView.contentSize = CGSize(width: self.frame.width, height: lastAddedView!.frame.maxX + padding)
             }else{
                 scrollView.contentSize = CGSize(width: self.frame.width, height: lastAddedView!.frame.maxY + padding)
             }
         }
     }
     
-    open func addView(view:UIView, height:CGFloat){
+    open func addView(view:UIView, size:CGFloat){
         self.contentView.addSubview(view)
         view.snp.makeConstraints { (make) in
-            make.left.right.equalTo(0)
-            make.height.equalTo(height)
-            if lastAddedView == nil{
-                make.top.equalTo(0)
+            if StackTypes(rawValue: stackType) == .horizontal{
+                make.top.bottom.equalTo(0)
+                make.width.equalTo(size)
+                if lastAddedView == nil{
+                    make.left.equalTo(0)
+                }else{
+                    make.left.equalTo(lastAddedView!.snp.right).offset(padding)
+                }
             }else{
-                make.top.equalTo(lastAddedView!.snp.bottom).offset(padding)
+                make.left.right.equalTo(0)
+                make.height.equalTo(size)
+                if lastAddedView == nil{
+                    make.top.equalTo(0)
+                }else{
+                    make.top.equalTo(lastAddedView!.snp.bottom).offset(padding)
+                }
             }
         }
         

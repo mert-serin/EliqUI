@@ -7,72 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001856F3D0D045EBA02E11FBD9EEB044 /* SystemActionResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A402F48852C2607F16D8F62180F90B4 /* SystemActionResponseModel.swift */; };
 		03D81587B0B79448B0132C6F0C0FA677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5E396388410F727598BCC92B6C057 /* Foundation.framework */; };
-		087F0FB97123C774748AB68393A7A695 /* EliqModels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6D0086366021D93AA602BCDE3AE98 /* EliqModels-dummy.m */; };
-		0C7C135E889724AD43A74629CAD83E42 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24A5CA78A29F35D0C851F71149A8913 /* UILayoutSupport+Extensions.swift */; };
-		0D753913EF2DA9BCCE44D436497628EF /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4CABBB106BEBE5DA9FAF40921B444E /* ConstraintLayoutGuide+Extensions.swift */; };
-		0DA72DED553FDACDB53A1ECB24BD66C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5E396388410F727598BCC92B6C057 /* Foundation.framework */; };
-		1189EBA11D28794C427632D041E1E670 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8E7F717F70FBC0AD7018F25C39B18 /* ConstraintRelation.swift */; };
-		20AA4A02C3F44108C238ED1BD1D2749F /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D8706ABE3E804A4A0DDF8B6514061A /* ConstraintLayoutGuide.swift */; };
-		23675F886EDFA54660B2E41B64F2C587 /* EliqScrollableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17E4A1891081B1FF91424C6307FD9DF /* EliqScrollableStackView.swift */; };
-		25B5F4661019E8232062392A4DFDB74D /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5609977869280DFBE9C00472AE2281D /* ConstraintMakerPriortizable.swift */; };
-		29CF344CFE663586521971AE30154BC4 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A071B1B7BF7D6902A4AEC59C4DF26 /* ConstraintPriority.swift */; };
-		2C729F992A63279F359CB24E123639EA /* EliqUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33EA3F9FFDF054E94D30B667793207 /* EliqUI-dummy.m */; };
-		2CB9CAD8A23A3FE455AD72CE74535F78 /* EliqTextFieldSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45049AB077895E1A020A7D91C3DB46 /* EliqTextFieldSet.swift */; };
-		2D54CCCF30518F50BEF71EBC3F995D53 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE7E57F2E841BAD9D5CDC54AF67D00 /* Extensions.swift */; };
-		303750A87C535870FF5F6CE78FA36937 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5A2C02D184B45C2D2A3D94149E97D /* ConstraintMakerRelatable.swift */; };
-		3A64F72CD706AE45EEB95517A059452D /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365E51CD6542CDD0E1CCAAC333963742 /* ConstraintViewDSL.swift */; };
-		3DB95C4C175AD295EA2C2F3113E4C68E /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1033A25AAB9AE1C07B3977D5A72C5642 /* Brand.swift */; };
-		46AF9CF6806D5A3FAC8DD41C46653EAB /* EliqContactOptionView.xib in Sources */ = {isa = PBXBuildFile; fileRef = A05B4C31497888EC49F547CE1163FBE3 /* EliqContactOptionView.xib */; };
-		49479A3E9F586D1A67203C84A55C7ACD /* EliqBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79051DC914B3BA1EC2D8443D51083AB6 /* EliqBackgroundView.swift */; };
-		50B89347CDB30F02881AFE61BB12AE2D /* EliqCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E13DF9B3AF50E92E3A6574A4142235E /* EliqCheckboxView.swift */; };
-		56D2AA2DAB613E2C20F6FC83CDC439BF /* EliqTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E4E422863B4DE74DEAACD1C04A195C /* EliqTextField.swift */; };
-		59258508F9306E4541BF00BCBCC59603 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5388D082D4BA5A9BB5983949B4D18EF9 /* ConstraintItem.swift */; };
-		598FE87189941CA85DE005B07953BFA0 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F80764EB06EF586610E3D31175163 /* ConstraintDescription.swift */; };
-		68A5881C146316803AF8482E9AD37831 /* EliqModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE5DEABD8648755E806242159091CA4 /* EliqModels.framework */; };
-		6C4EE90D9477ED4F8FF51C9F35F63C84 /* EliqModels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA280056D6DE33209C62500A176E8DB /* EliqModels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E2608F9C239EF4E2F6C7B47FDBCDFD5 /* EliqAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC65274D103E1F6D73928DAA0AC7F39 /* EliqAlertViewController.swift */; };
-		6E64853BDA9FBEA5F86F3EA42C87C2A8 /* EliqModelsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F70E23CF7C0F7FF5CC351BF814758D1 /* EliqModelsConfiguration.swift */; };
-		6F2EA261D00CCB537A89981F8A5720DD /* EliqUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0ADBD7DE6CD4F2C4E57FD785892741 /* EliqUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F4840E63F4D5A849152A312D8E5A12F /* EliqTextFieldSet.xib in Sources */ = {isa = PBXBuildFile; fileRef = 93EE0FFCE9326593D22C565007C74FD2 /* EliqTextFieldSet.xib */; };
-		6F9F988A44E8281E90071E88BA0A2BC7 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4017F02F4629803AEC2C9883E441082B /* ConstraintLayoutGuideDSL.swift */; };
-		722735B596C5D80FBACB1EBCA05CE60B /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE0814908EDB8E7EC091AC3208AF501 /* ConstraintMakerExtendable.swift */; };
-		7F7207401253F745C37B44D251EECD94 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0895FEAB65706087D9B7F9A14D65D68 /* ConstraintMakerFinalizable.swift */; };
-		81B1C2BFEFB8EFB7424E7B888A4882D5 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5C528E86C41C5AA99960F040A542C /* SnapKit-dummy.m */; };
-		841DCDE09428DE790DE595B1864DED92 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858582CE2CBCA57F699610B997B55AF /* Debugging.swift */; };
-		849827842FA675FF04155079EC9E24B5 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CE587F230FC06D41055D72B27203C /* ConstraintPriorityTarget.swift */; };
-		85AA5FAB7636AE22B83EA909E740AF88 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8143E946D4B6AC4F9B123EE30146B1 /* ConstraintLayoutSupportDSL.swift */; };
-		85CB9FC3F3292368CF6DC08E959F0734 /* EliqButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A723FBD12D80D8CD29B158ABD08C5AFC /* EliqButton.swift */; };
-		87B081FDBF0A0058709647285D572500 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8A97FE227926A6F9D1E839E4CFD688 /* ConstraintRelatableTarget.swift */; };
-		89206B045C7661442AA2A2CCF94B03B7 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A81E5C1F54E848806904B0E409B5FE5 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92CF107C8CEEDED742CBA2AB7C95032A /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83DDFC2C9A8D2DC1ADC75D91FCA9256 /* ConstraintView.swift */; };
-		A655DFDB9DF8F79FC9BDC4A531FE76D2 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073CC252BD4BA8F90AD65F9DEF4ACD68 /* ConstraintMakerEditable.swift */; };
-		A6D5DA34CC527F61545806E32AB9153A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7B774B59AEF2D172E097F1F312CEF5 /* ConstraintAttributes.swift */; };
-		AB68B72573A24115CD07D4BA0969F43F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5E396388410F727598BCC92B6C057 /* Foundation.framework */; };
-		ADE3CAAF9A22B926A08981FEC94A7F22 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F7430A5245FE2ECF4826E68D16CCA0 /* ConstraintLayoutSupport.swift */; };
-		AEF84AB346118D2631C57A055098CA11 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B2941C04211A1AED029BE2FB473 /* LayoutConstraint.swift */; };
-		B27D6F7B13574700B88EBA69AE8CD9C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5E396388410F727598BCC92B6C057 /* Foundation.framework */; };
-		B40BAA7CAD94EFE2CFB38C57CDACC22B /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D4EEB1B4071677BBFEAE52D64D8D3 /* ConstraintView+Extensions.swift */; };
-		B69E0C141D82830DCFA2FDB2BE5AD37C /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF1CDFBB2B9A760C0D8B196E751A985 /* ConstraintConfig.swift */; };
-		B78A55ACF19B327E5C5B6571976A7BE5 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B57688C4ED627CFECC8F9E5F99ADE1 /* ConstraintMultiplierTarget.swift */; };
-		BD3CEAD8D69BB17A2283A921C0F722C4 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0129D3A158DE7C49270763395E4A1D /* ConstraintOffsetTarget.swift */; };
-		C1EB4EDAB1D346BF09736FD9DB1B9AD0 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F38E32921F358E6561EDA1338C87825 /* ConstraintInsetTarget.swift */; };
-		C5E909B1D0DB60F2681BCD8456609554 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9E5081566005A8E0528333E61E359 /* ConstraintInsets.swift */; };
-		C6825FB650F08517A9E16DF63D1866D3 /* EliqFlowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4971E7B95421773742EBA221AC38BE5 /* EliqFlowModel.swift */; };
-		CF6F82BE82812C3BC68AC773F3B611F7 /* EliqLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564DC5EB7C2E22E2ADC15FC8289DB89 /* EliqLoginButton.swift */; };
-		D00F796CEB71A3DC95F0ACBAB537AD3C /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662C826E8C466CED080CC738EC32AE /* ConstraintDSL.swift */; };
-		D104B8F3B3C36471EF2BF718B18A0376 /* EliqLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19229F1367041F4D9DE00344B6C81D /* EliqLabel.swift */; };
-		D18106FA12782D92FDAE7D180AC16768 /* EliqCheckboxView.xib in Sources */ = {isa = PBXBuildFile; fileRef = A4FC87F7C28641D01D02B895F9439E05 /* EliqCheckboxView.xib */; };
-		D370D4C4E7817BD7019DD9ECB620DDA7 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC6BF796B5EC153678780E5541B01F6 /* ConstraintMaker.swift */; };
-		D693A0F3161CB1CC7C98016533FE06D9 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE79DB5BD31ABBCB41F17750A0370E2 /* ConstraintConstantTarget.swift */; };
+		0840E2BA6B18ED9C5A12E26E1508BA5F /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17A8F42740D958093F880E10B2C1219 /* ConstraintConstantTarget.swift */; };
+		0E35C9062001DD8BE26A1E37F672B6EC /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C2791502B6ED9D9870844811B250D3 /* ConstraintMakerRelatable.swift */; };
+		133B9F6A84223C337DFB104963E574C5 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED09AC27EC32DF9C693004B26E8E67 /* Typealiases.swift */; };
+		20BA7A769E3C5DF41F14956D9BC12852 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C5073B5B7E3A1CEF9578AA7D6CA0C0 /* SnapKit-dummy.m */; };
+		214DBAA2A0F995B5AD4651FD8A65EEFB /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2881E31F7300AC7925B516176BB619 /* ConstraintLayoutGuide.swift */; };
+		22D6CE157C78E6A23AD7484858DADDD1 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5706138176D6C42E75F94B6A3D8A9 /* ConstraintItem.swift */; };
+		235DB4FC25650C3FDE02525FCE25BFCE /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C45970CB0DBBBCCA4CB592B957CC05 /* ConstraintMakerExtendable.swift */; };
+		239606B9638F185DCAC58B366C98BC00 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F47DF2A1A56D7EA000AA4EFEBF19EE /* ConstraintView.swift */; };
+		251E943A105279BCF9D6341012597B4A /* EliqTextFieldSet.xib in Sources */ = {isa = PBXBuildFile; fileRef = C46618A843762E1DAF0CAC3FDE7BC51D /* EliqTextFieldSet.xib */; };
+		2C8D50F6D70FDD1BEFFC42CBE4C5E534 /* EliqTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40CF3E4049A3659EBD076127574F686 /* EliqTextField.swift */; };
+		32833EA5842BA5671C9B57F7AE3BD33A /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BECF13ECACBA932D16BDF9C8971FEFA /* ConstraintMakerPriortizable.swift */; };
+		35AE467FC36369B594447069021D47CD /* EliqModels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ECB3F1AE53A3851B404E16F873B173 /* EliqModels-dummy.m */; };
+		387B8D7245BEE31ADDA10143058AD3E7 /* FindUserResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51647A010B43A9484B792EEC2E2F1D1 /* FindUserResponseModel.swift */; };
+		3D44A82B1155907324E6EEEA224D2D7F /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BF3856C9D5EFC1F5DDC7EA26137714 /* ConstraintLayoutGuideDSL.swift */; };
+		3E522C42159A1DB075820E48174EB2A5 /* EliqLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6168C2D95F01EB4E3C96D20246AA21E0 /* EliqLoginButton.swift */; };
+		3F2849CDE027A250EA31C2B59F4065E3 /* EliqOnboardingWithButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D6C94C2B93E598605B37656BDE72B /* EliqOnboardingWithButtonView.swift */; };
+		44DC744E92653BCC10FDEFEAFFF2D0E4 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0304A8949A43A007614819C8AFE302 /* ConstraintConfig.swift */; };
+		47A3AEC0931F711D293E86D12683774E /* EliqCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89FE7E3BAA029537A7945E23598A9B /* EliqCheckboxView.swift */; };
+		541C16EDDDA225B9627FD3952B638636 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84B9BB2B0E0A180D927F3D70679C433 /* ConstraintLayoutGuide+Extensions.swift */; };
+		5D94F43990DDB891D84B9594410A0D64 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B56FC87806B79ECD23FA86C9EFFFD1 /* UILayoutSupport+Extensions.swift */; };
+		5DA45317F7E157C3AE1ADF31A8764FCD /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347DF859BA12E8548A1D383B52E3630 /* ConstraintPriorityTarget.swift */; };
+		69924EF61007B297AAD13A8FE6D7AE69 /* EliqCheckboxView.xib in Sources */ = {isa = PBXBuildFile; fileRef = C556A2E00630E93F8993504463263130 /* EliqCheckboxView.xib */; };
+		6AE2E46DB157AAC82370EDB72E2F2D5C /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4A47092363081B1F950DA8A29652E /* ConstraintInsetTarget.swift */; };
+		700A0EEB4BE27F86FB574271E7C676DE /* AccessTokenResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D6EDD14381A502C240AE323D7732B /* AccessTokenResponseModel.swift */; };
+		74A4A6BE5D9CDD3B088199BB747BA0EF /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD09CD2F0F8BDBEDE990094699D659D /* Constraint.swift */; };
+		74C520A8617D2BFC3B203C465AF10BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5E396388410F727598BCC92B6C057 /* Foundation.framework */; };
+		76C11410E450AA2694FC55A0C4478D5A /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB61531127A55C6F71D69EA362CD1BD /* ConstraintLayoutSupportDSL.swift */; };
+		82F94653B64CBA962C44B6F342310618 /* EliqFlowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C32E9D15DB2AD38526BC5B42E41C2B /* EliqFlowModel.swift */; };
+		83463BC3C143D8B27145C99145CC2605 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BBB7B610BB386FB212691DAB72321 /* LoginResponseModel.swift */; };
+		83AE07420A22EF4244219789762925E7 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9D0ABD6B00B3AED0B306149C2E2C0 /* ConstraintOffsetTarget.swift */; };
+		8470DFA3EE17F67E268A35BED1068065 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9532FCB19EB275A469BEC6BEA9FDB /* OnboardingModel.swift */; };
+		8C9D5FA5BA63022566DB4F7D196BBF4C /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993CFE23924538304AE0B6445F1307E /* Brand.swift */; };
+		94F7C68A6D46AECCB65289A9557BD6EA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6442769DB3B4AB1BA1145843896F0A30 /* Enums.swift */; };
+		956932C436866A4A91AA680001ECF89D /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB6855EF7B6404E5CC427D9E10257A /* LayoutConstraint.swift */; };
+		97955C93D7A754842F477F776DB4CE8C /* EliqBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750A41097AAFB50B178E16F4E9EBBEE1 /* EliqBackgroundView.swift */; };
+		9BF48E6A68DF55D90D4CBF5B19D9BC81 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76ACBC5C872135B47FAE022DB36F33D /* ConstraintLayoutSupport.swift */; };
+		9CC5DE0D67CC6AB517636864629ED5CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5E396388410F727598BCC92B6C057 /* Foundation.framework */; };
+		A0090AD11AE7A8E89FA49287CB8AF94E /* EliqUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F81191A94C81F94CE3D8529A56AE10 /* EliqUI-dummy.m */; };
+		A16F76E9C85A6AB9116FB1235AFBDD04 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E36D5C54BAEE229C0BFE3AA9D90A75 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3247B157BCB2D3FFBEEF57A9FEC585D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CD927F7BB6D06986A8E8D42559CA0 /* Extensions.swift */; };
+		A3DCC3C9E852EA673BF946746D55D6D8 /* EliqOnboardingWithoutButtonView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE172A05218689F20D2DBA6D2BF75C /* EliqOnboardingWithoutButtonView.xib */; };
+		A64F8512AF9E98401290304E7AB2C928 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6834479F4509EF2EF41EBD6C23D8897 /* ConstraintMultiplierTarget.swift */; };
+		AC745358A35651EEDF3F45662D96ECCB /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E88FCFB82988023948629A23799D765 /* ConstraintDescription.swift */; };
+		AD8F518F286FDB3C7541C8CA885F266F /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56923EE3D1FAC46A5A3E00AB43F4B98 /* ConstraintMakerFinalizable.swift */; };
+		B290F363DD47FD5589D7FD41A55729CF /* EliqOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E963DE5E8E3319F9B6A172557C42FAB /* EliqOnboardingView.swift */; };
+		B49B49D89EAAD0F057E068D13CD59F92 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C28F483241EBD8BC85FB67C3F739A3C /* ConstraintPriority.swift */; };
+		B8E75101402203DDE4B952B871F702EB /* ViewImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81151CAD21D7F77655AA68628CE894 /* ViewImpl.swift */; };
+		BABC539E5EE809CF519A0C46516A2BFB /* EliqTextField.xib in Sources */ = {isa = PBXBuildFile; fileRef = FC3239B5E01FE0E9E9F955FCCB6CE7CE /* EliqTextField.xib */; };
+		BD0ABDEA8EE49F791F9090C8A771801E /* EliqContactOptionView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 48C5D4CA332264CC34AB0764534D4EEE /* EliqContactOptionView.xib */; };
+		C31EFEDF650F2A1EBB82199E805E0A26 /* EliqTextFieldSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2FB2464D26A2FF465AB6D74F3B12A /* EliqTextFieldSet.swift */; };
+		C47E4C788574541CAF06B335C96FE404 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B09BEC6D62CEDFD7FD87AD89A6904 /* ConstraintRelatableTarget.swift */; };
+		C684C06FBD6294CEE8407FE2A878128E /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552F3DF3FF2F2CC7142FC1FDB83E400 /* ConstraintDSL.swift */; };
+		C769E7FFFF1DEDA8238A3535DA395435 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA14847F11A9533C9424CCA0737F9D9 /* ConstraintMaker.swift */; };
+		CAE16BB1BA6D7DE947BDF0CDC7376AE1 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3346B5F8A5DF3CBA32B14B3BDA399334 /* ConstraintAttributes.swift */; };
+		CB4440193814BFB8C22AA61B18EE64C2 /* EliqUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A00B1B2C61FE8A6446EC157FB4F58E47 /* EliqUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE451C4D61D84B3FA7E799583DCCACE7 /* EliqAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8738D3AFEE33ED7CF891023DD5B9A8DB /* EliqAlertViewController.swift */; };
+		D0B6EA0508407BA353FDB54DD2AD49B2 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBA84F5F6244708B63BE484CD739EA /* LayoutConstraintItem.swift */; };
+		D1509BFF6E009F1015891DD7CD58A7A8 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EACD6194C9FC74B172BDD8FAE182C4A /* Debugging.swift */; };
+		D4A17543E5D52CA0A0F2A68B5033B4EC /* EliqModels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55ABD139F2EAC9A527D1B6F8525EE902 /* EliqModels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D52D090CB81499D7FF5F80FF65626899 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59A4256AD75DAB01FE2801EB36BEB1 /* ConstraintInsets.swift */; };
+		D6D30A8A0A5102428E07315FA6704E97 /* EliqLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D7512C52DC78C3974BAA30D7269BFF /* EliqLabel.swift */; };
+		D722366CCAECC8938D875668C4B47B0F /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC0AD195514018A859B80438920536 /* ConstraintMakerEditable.swift */; };
+		D7F28E97FD552E17872B867876AD7D65 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1B48EF105FAF9A94A45111120DAC68 /* ConstraintView+Extensions.swift */; };
 		D8CDC1CADD52C2F454D260EBCC89EAB9 /* Pods-EliqUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1E6F41325E8797DFABAF8269801CC0 /* Pods-EliqUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE2A5D7C78A72E1EF2E97E5686D8D664 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A79D32C770CC13EB6FB88514349E09 /* Typealiases.swift */; };
-		E077B5573AC10CC14D2B9FA8FD93CC8E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748F6BD4B648EA207A708FFF7AC97772 /* SnapKit.framework */; };
-		E15FB398CF6995051ADC28D1D996CFB0 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42104B3B80A624B137BA3920E2582588 /* Constraint.swift */; };
+		D9177B5D0A727FC4916569C364FECB60 /* EliqModelsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509F74A3F127830FF92B1FC3A1CCD482 /* EliqModelsConfiguration.swift */; };
+		DD9D0D6FA54C20931BF6DDF5075AA3F3 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647A3A5035005497A0AB2A325B6B16A /* ConstraintViewDSL.swift */; };
 		E41EEE45368D48FC3C2EA5AB75D05786 /* Pods-EliqUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A774C4E0861A30DA39F457C9B08B01 /* Pods-EliqUI_Tests-dummy.m */; };
-		E4242ACBD4011107F6782D95E3FB9DD3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A388DE93D4EEE2A128F244BAAA9DC9 /* Enums.swift */; };
-		EDF0A090B3620BC67F3D20D535973CC4 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F447FFBB84AB547F29B54D8A1C9B0A5F /* LayoutConstraintItem.swift */; };
-		EDF77D3AC9C41C57AC8DF9C9ACB7072A /* EliqTextField.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E804EAC079D7690ACF2FE4B1A3A6A /* EliqTextField.xib */; };
+		E48AC8FD72C49DB83DF3D9FB4AC2CDB8 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748F6BD4B648EA207A708FFF7AC97772 /* SnapKit.framework */; };
+		ECD08248F2F1E9F42EDE3DAFF887C824 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379A06F300C27300744F67332D30D20 /* ConstraintRelation.swift */; };
+		F221A2DFE5C454951185163B63274912 /* EliqScrollableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70328D16C0FC06337789D6DB6E23D6C /* EliqScrollableStackView.swift */; };
+		F33F199D8BB8C33A7C48A8BA1FC25F71 /* EliqModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE5DEABD8648755E806242159091CA4 /* EliqModels.framework */; };
+		F342CC2DF5EB12A177BB5FBB1AD16C42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5E396388410F727598BCC92B6C057 /* Foundation.framework */; };
+		FBFAD7524A0C60EAB4535F5C4F80646B /* EliqOnboardingWithButtonView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4F1CBD94ACE8725949B942378CA5689B /* EliqOnboardingWithButtonView.xib */; };
+		FCFE141582C4A4084DA6BEB32B960144 /* EliqButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DAB8A5FF763701025ACDD2213802C0 /* EliqButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,13 +93,6 @@
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
-		279584552BA768E4FF2451AE34ADA534 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D267D6074300813DBC65AEB89C7FC629;
-			remoteInfo = EliqModels;
-		};
 		5900EADE8EA0612B903F7A13B35D711B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -97,12 +100,19 @@
 			remoteGlobalIDString = 2E218E0402C21466C4B4B146D457733F;
 			remoteInfo = EliqUI;
 		};
-		82AB7670BA74B79DCAA696EA0E96E562 /* PBXContainerItemProxy */ = {
+		6629ABCAA4E41BBB7D19C6A38F888F6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
+		};
+		8F9AA3B67FA9487D1271D72EC4B1BA5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D267D6074300813DBC65AEB89C7FC629;
+			remoteInfo = EliqModels;
 		};
 		DCDE3A46D59F641F1425D6111D6C6820 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -114,96 +124,106 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00662C826E8C466CED080CC738EC32AE /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
-		01C3B3CB7EA7BFDF820F80D26ABE6C73 /* EliqUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EliqUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		069D33A5A73D7A8CDF5B209705CC5D4E /* EliqModels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EliqModels-Info.plist"; sourceTree = "<group>"; };
+		0379A06F300C27300744F67332D30D20 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		068DB17A64C1CC7A9DA8C1E5DDEAFD36 /* EliqModels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliqModels-prefix.pch"; sourceTree = "<group>"; };
 		06DE3C558F95140C8339BC21139FAB9A /* Pods-EliqUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliqUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		06F7430A5245FE2ECF4826E68D16CCA0 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
-		073CC252BD4BA8F90AD65F9DEF4ACD68 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		0B45049AB077895E1A020A7D91C3DB46 /* EliqTextFieldSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqTextFieldSet.swift; sourceTree = "<group>"; };
-		1033A25AAB9AE1C07B3977D5A72C5642 /* Brand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Brand.swift; path = EliqModels/Classes/Brand.swift; sourceTree = "<group>"; };
+		078D6C94C2B93E598605B37656BDE72B /* EliqOnboardingWithButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqOnboardingWithButtonView.swift; sourceTree = "<group>"; };
+		0A402F48852C2607F16D8F62180F90B4 /* SystemActionResponseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemActionResponseModel.swift; path = EliqModels/Classes/SystemActionResponseModel.swift; sourceTree = "<group>"; };
+		0B1B48EF105FAF9A94A45111120DAC68 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		0E88FCFB82988023948629A23799D765 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		14C5E396388410F727598BCC92B6C057 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1EE79DB5BD31ABBCB41F17750A0370E2 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
-		22E4E422863B4DE74DEAACD1C04A195C /* EliqTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqTextField.swift; sourceTree = "<group>"; };
-		2B0E804EAC079D7690ACF2FE4B1A3A6A /* EliqTextField.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqTextField.xib; sourceTree = "<group>"; };
-		2B19229F1367041F4D9DE00344B6C81D /* EliqLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqLabel.swift; sourceTree = "<group>"; };
+		19D41AD981DC674F7E268F952A76F786 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		25878F062A22C8197BDBAC64908FCD13 /* EliqUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EliqUI-Info.plist"; sourceTree = "<group>"; };
+		265B09BEC6D62CEDFD7FD87AD89A6904 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		2BECF13ECACBA932D16BDF9C8971FEFA /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		313E8D6B81C5358B7062235E1F184EE8 /* EliqUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EliqUI.framework; path = EliqUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3346B5F8A5DF3CBA32B14B3BDA399334 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		33A774C4E0861A30DA39F457C9B08B01 /* Pods-EliqUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EliqUI_Tests-dummy.m"; sourceTree = "<group>"; };
-		365E51CD6542CDD0E1CCAAC333963742 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		36A79D32C770CC13EB6FB88514349E09 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
-		3796C2764F99492413B1E947B7C1D7D5 /* EliqModels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EliqModels.modulemap; sourceTree = "<group>"; };
-		3858582CE2CBCA57F699610B997B55AF /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		3A28756DD2FBCEF694B560BCED3ED1DC /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		3B1F80764EB06EF586610E3D31175163 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		3BC5C528E86C41C5AA99960F040A542C /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
-		4017F02F4629803AEC2C9883E441082B /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		353BBB7B610BB386FB212691DAB72321 /* LoginResponseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginResponseModel.swift; path = EliqModels/Classes/LoginResponseModel.swift; sourceTree = "<group>"; };
+		37ECB3F1AE53A3851B404E16F873B173 /* EliqModels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EliqModels-dummy.m"; sourceTree = "<group>"; };
+		37F47DF2A1A56D7EA000AA4EFEBF19EE /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		39C2791502B6ED9D9870844811B250D3 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		4111ED65BF223632A99FBD0592408211 /* Pods-EliqUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EliqUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4130DF80D88F93E7F8E955351AF2FAA2 /* EliqUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EliqUI.modulemap; sourceTree = "<group>"; };
-		42104B3B80A624B137BA3920E2582588 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
-		4A81E5C1F54E848806904B0E409B5FE5 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		4EE0814908EDB8E7EC091AC3208AF501 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
-		4FA37B002E11CECB8A55987FFCB0CDD5 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		521A071B1B7BF7D6902A4AEC59C4DF26 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
-		5388D082D4BA5A9BB5983949B4D18EF9 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		53B57688C4ED627CFECC8F9E5F99ADE1 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		56A4D92C34FAD4BE4FD02FE288EDBAEA /* EliqUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EliqUI.xcconfig; sourceTree = "<group>"; };
+		437150AAEADABACD899E4D04AC6272EE /* EliqUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EliqUI.modulemap; sourceTree = "<group>"; };
+		48C5D4CA332264CC34AB0764534D4EEE /* EliqContactOptionView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqContactOptionView.xib; sourceTree = "<group>"; };
+		4AF27DF4C45E6E1206361C380DA7BE79 /* EliqUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EliqUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D81151CAD21D7F77655AA68628CE894 /* ViewImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewImpl.swift; sourceTree = "<group>"; };
+		4E59A4256AD75DAB01FE2801EB36BEB1 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		4EACD6194C9FC74B172BDD8FAE182C4A /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		4EDB6855EF7B6404E5CC427D9E10257A /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		4EEBA84F5F6244708B63BE484CD739EA /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		4F1CBD94ACE8725949B942378CA5689B /* EliqOnboardingWithButtonView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqOnboardingWithButtonView.xib; sourceTree = "<group>"; };
+		4F5D6EDD14381A502C240AE323D7732B /* AccessTokenResponseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenResponseModel.swift; path = EliqModels/Classes/AccessTokenResponseModel.swift; sourceTree = "<group>"; };
+		509F74A3F127830FF92B1FC3A1CCD482 /* EliqModelsConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EliqModelsConfiguration.swift; path = EliqModels/Classes/EliqModelsConfiguration.swift; sourceTree = "<group>"; };
+		55ABD139F2EAC9A527D1B6F8525EE902 /* EliqModels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliqModels-umbrella.h"; sourceTree = "<group>"; };
+		5BB4A47092363081B1F950DA8A29652E /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		5BD09CD2F0F8BDBEDE990094699D659D /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		5C28F483241EBD8BC85FB67C3F739A3C /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		5D1E6F41325E8797DFABAF8269801CC0 /* Pods-EliqUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EliqUI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5EA280056D6DE33209C62500A176E8DB /* EliqModels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliqModels-umbrella.h"; sourceTree = "<group>"; };
+		6168C2D95F01EB4E3C96D20246AA21E0 /* EliqLoginButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqLoginButton.swift; sourceTree = "<group>"; };
+		61F81191A94C81F94CE3D8529A56AE10 /* EliqUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EliqUI-dummy.m"; sourceTree = "<group>"; };
+		6347DF859BA12E8548A1D383B52E3630 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		635F6AA6BBB765D7C60BC9602C3D25EF /* Pods_EliqUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EliqUI_Tests.framework; path = "Pods-EliqUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		655CE587F230FC06D41055D72B27203C /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		6442769DB3B4AB1BA1145843896F0A30 /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = EliqModels/Classes/Enums.swift; sourceTree = "<group>"; };
 		678A578F68D39C8E48C98DD04729CF70 /* Pods-EliqUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliqUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		68347B2941C04211A1AED029BE2FB473 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		6CFF289623A25D9CCF3211D85DFB594E /* Pods-EliqUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliqUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6D4CABBB106BEBE5DA9FAF40921B444E /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		6D9966C4C2651776080749C91A851189 /* EliqModels.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EliqModels.xcconfig; sourceTree = "<group>"; };
-		6F38E32921F358E6561EDA1338C87825 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		6E963DE5E8E3319F9B6A172557C42FAB /* EliqOnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqOnboardingView.swift; sourceTree = "<group>"; };
+		6F8877739B5DA019D76DE164E2E3AD35 /* EliqModels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EliqModels.modulemap; sourceTree = "<group>"; };
 		748F6BD4B648EA207A708FFF7AC97772 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		758D4EEB1B4071677BBFEAE52D64D8D3 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
-		75D5A2C02D184B45C2D2A3D94149E97D /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		769347F29FEE201446374E26551E8139 /* EliqModels-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliqModels-prefix.pch"; sourceTree = "<group>"; };
-		79051DC914B3BA1EC2D8443D51083AB6 /* EliqBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqBackgroundView.swift; sourceTree = "<group>"; };
-		7BCFDC0C869D52C2874C55FD3ED1DD3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7CF1CDFBB2B9A760C0D8B196E751A985 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
-		7E13DF9B3AF50E92E3A6574A4142235E /* EliqCheckboxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqCheckboxView.swift; sourceTree = "<group>"; };
-		7F70E23CF7C0F7FF5CC351BF814758D1 /* EliqModelsConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EliqModelsConfiguration.swift; path = EliqModels/Classes/EliqModelsConfiguration.swift; sourceTree = "<group>"; };
+		74C5073B5B7E3A1CEF9578AA7D6CA0C0 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		750A41097AAFB50B178E16F4E9EBBEE1 /* EliqBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqBackgroundView.swift; sourceTree = "<group>"; };
+		76B56FC87806B79ECD23FA86C9EFFFD1 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		799CA905139B9527947A067C3C874576 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		82DAB8A5FF763701025ACDD2213802C0 /* EliqButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqButton.swift; sourceTree = "<group>"; };
 		834D2B3DC5F42D45A41CEF486F53189E /* Pods-EliqUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EliqUI_Tests.modulemap"; sourceTree = "<group>"; };
-		89DF5C247499842F3951DCA0DD674886 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8BC6BF796B5EC153678780E5541B01F6 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		85BF3856C9D5EFC1F5DDC7EA26137714 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		8738D3AFEE33ED7CF891023DD5B9A8DB /* EliqAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqAlertViewController.swift; sourceTree = "<group>"; };
+		8A80328853BCF79C0349E3FF30A6D1CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8FA5706138176D6C42E75F94B6A3D8A9 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		9115869618F1D0C92C571865C2257DA9 /* Pods-EliqUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EliqUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93EE0FFCE9326593D22C565007C74FD2 /* EliqTextFieldSet.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqTextFieldSet.xib; sourceTree = "<group>"; };
 		940FEF92E0DA5FD195EC24288102C82C /* EliqModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EliqModels.framework; path = EliqModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9672C9F78B14C9CBB2DD97EFB763B5B9 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AD9E5081566005A8E0528333E61E359 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
-		9C8143E946D4B6AC4F9B123EE30146B1 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		9C30678FD3A8D9865550325ED64F09D3 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		9CB61531127A55C6F71D69EA362CD1BD /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A05B4C31497888EC49F547CE1163FBE3 /* EliqContactOptionView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqContactOptionView.xib; sourceTree = "<group>"; };
-		A4FC87F7C28641D01D02B895F9439E05 /* EliqCheckboxView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqCheckboxView.xib; sourceTree = "<group>"; };
-		A564DC5EB7C2E22E2ADC15FC8289DB89 /* EliqLoginButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqLoginButton.swift; sourceTree = "<group>"; };
-		A723FBD12D80D8CD29B158ABD08C5AFC /* EliqButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqButton.swift; sourceTree = "<group>"; };
-		A9EE7E57F2E841BAD9D5CDC54AF67D00 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		AF0129D3A158DE7C49270763395E4A1D /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		AF0ADBD7DE6CD4F2C4E57FD785892741 /* EliqUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliqUI-umbrella.h"; sourceTree = "<group>"; };
-		AFD8E7F717F70FBC0AD7018F25C39B18 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
-		B5609977869280DFBE9C00472AE2281D /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
-		B903BABF2F6596A7244AB22D9C66DC75 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		BB8A97FE227926A6F9D1E839E4CFD688 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		9DEE172A05218689F20D2DBA6D2BF75C /* EliqOnboardingWithoutButtonView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqOnboardingWithoutButtonView.xib; sourceTree = "<group>"; };
+		9F2881E31F7300AC7925B516176BB619 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		9F89FE7E3BAA029537A7945E23598A9B /* EliqCheckboxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqCheckboxView.swift; sourceTree = "<group>"; };
+		A00B1B2C61FE8A6446EC157FB4F58E47 /* EliqUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliqUI-umbrella.h"; sourceTree = "<group>"; };
+		A56923EE3D1FAC46A5A3E00AB43F4B98 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		A5FB9300D9AD25122033999F0F369748 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		A7ED09AC27EC32DF9C693004B26E8E67 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		A993CFE23924538304AE0B6445F1307E /* Brand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Brand.swift; path = EliqModels/Classes/Brand.swift; sourceTree = "<group>"; };
+		A9C45970CB0DBBBCCA4CB592B957CC05 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		AF0304A8949A43A007614819C8AFE302 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		B06DB9B131F70B6CBFC439D7C56FA0D0 /* EliqModels.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EliqModels.xcconfig; sourceTree = "<group>"; };
+		B51647A010B43A9484B792EEC2E2F1D1 /* FindUserResponseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FindUserResponseModel.swift; path = EliqModels/Classes/FindUserResponseModel.swift; sourceTree = "<group>"; };
+		B6E36D5C54BAEE229C0BFE3AA9D90A75 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		B70328D16C0FC06337789D6DB6E23D6C /* EliqScrollableStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqScrollableStackView.swift; sourceTree = "<group>"; };
+		BAA14847F11A9533C9424CCA0737F9D9 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		BCAC14EBCA9E0320480066AF17797B46 /* EliqUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliqUI-prefix.pch"; sourceTree = "<group>"; };
 		BCE5DEABD8648755E806242159091CA4 /* EliqModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EliqModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDC65274D103E1F6D73928DAA0AC7F39 /* EliqAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqAlertViewController.swift; sourceTree = "<group>"; };
-		C0D8706ABE3E804A4A0DDF8B6514061A /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
-		C83DDFC2C9A8D2DC1ADC75D91FCA9256 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
-		D0895FEAB65706087D9B7F9A14D65D68 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		D14F3C2F6576C624F1A8FBF7456BFBD5 /* EliqUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EliqUI-Info.plist"; sourceTree = "<group>"; };
-		D4971E7B95421773742EBA221AC38BE5 /* EliqFlowModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EliqFlowModel.swift; path = EliqModels/Classes/EliqFlowModel.swift; sourceTree = "<group>"; };
-		D7A388DE93D4EEE2A128F244BAAA9DC9 /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = EliqModels/Classes/Enums.swift; sourceTree = "<group>"; };
-		DD731BA198FAA3DDE6CEB9EA8244E494 /* EliqUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliqUI-prefix.pch"; sourceTree = "<group>"; };
-		E24A5CA78A29F35D0C851F71149A8913 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		C24CD927F7BB6D06986A8E8D42559CA0 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C37049637DB4E26F6A4C5FD430F8CDB0 /* EliqUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EliqUI.xcconfig; sourceTree = "<group>"; };
+		C46618A843762E1DAF0CAC3FDE7BC51D /* EliqTextFieldSet.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqTextFieldSet.xib; sourceTree = "<group>"; };
+		C556A2E00630E93F8993504463263130 /* EliqCheckboxView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqCheckboxView.xib; sourceTree = "<group>"; };
+		C84B9BB2B0E0A180D927F3D70679C433 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		C9C2FB2464D26A2FF465AB6D74F3B12A /* EliqTextFieldSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqTextFieldSet.swift; sourceTree = "<group>"; };
+		D35F2DEBA1D78E2EB11C426E379B096A /* EliqModels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EliqModels-Info.plist"; sourceTree = "<group>"; };
+		D40CF3E4049A3659EBD076127574F686 /* EliqTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqTextField.swift; sourceTree = "<group>"; };
+		D647A3A5035005497A0AB2A325B6B16A /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		D6834479F4509EF2EF41EBD6C23D8897 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		D7EC0AD195514018A859B80438920536 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		D8C9532FCB19EB275A469BEC6BEA9FDB /* OnboardingModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingModel.swift; path = EliqModels/Classes/OnboardingModel.swift; sourceTree = "<group>"; };
+		E17A8F42740D958093F880E10B2C1219 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		E4C32E9D15DB2AD38526BC5B42E41C2B /* EliqFlowModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EliqFlowModel.swift; path = EliqModels/Classes/EliqFlowModel.swift; sourceTree = "<group>"; };
+		E5AFE1F06F9D64567E522666B06C4F61 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		EDB002949446CFA9317F4B9B28565797 /* Pods-EliqUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliqUI_Tests-Info.plist"; sourceTree = "<group>"; };
-		F17E4A1891081B1FF91424C6307FD9DF /* EliqScrollableStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqScrollableStackView.swift; sourceTree = "<group>"; };
-		F447FFBB84AB547F29B54D8A1C9B0A5F /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		FB7B774B59AEF2D172E097F1F312CEF5 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		FD33EA3F9FFDF054E94D30B667793207 /* EliqUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EliqUI-dummy.m"; sourceTree = "<group>"; };
-		FDD6D0086366021D93AA602BCDE3AE98 /* EliqModels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EliqModels-dummy.m"; sourceTree = "<group>"; };
+		EEF9D0ABD6B00B3AED0B306149C2E2C0 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		F552F3DF3FF2F2CC7142FC1FDB83E400 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		F76ACBC5C872135B47FAE022DB36F33D /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		F7D7512C52DC78C3974BAA30D7269BFF /* EliqLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EliqLabel.swift; sourceTree = "<group>"; };
+		FC3239B5E01FE0E9E9F955FCCB6CE7CE /* EliqTextField.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EliqTextField.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,87 +235,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67AC576EDD5E1E940FB514135AE4D2E3 /* Frameworks */ = {
+		B28F400618774134183FC94D3B5353C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DA72DED553FDACDB53A1ECB24BD66C4 /* Foundation.framework in Frameworks */,
+				F342CC2DF5EB12A177BB5FBB1AD16C42 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C30C3F4CF6FD4E1E36F4749125A321D /* Frameworks */ = {
+		B9385A6D8019D1E9DFDA4084BB6087C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68A5881C146316803AF8482E9AD37831 /* EliqModels.framework in Frameworks */,
-				AB68B72573A24115CD07D4BA0969F43F /* Foundation.framework in Frameworks */,
-				E077B5573AC10CC14D2B9FA8FD93CC8E /* SnapKit.framework in Frameworks */,
+				9CC5DE0D67CC6AB517636864629ED5CD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B53B8C9546BD007D033AA038D2CF39E /* Frameworks */ = {
+		F2C0FF43FA959D3F9793D13E98B0A783 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B27D6F7B13574700B88EBA69AE8CD9C6 /* Foundation.framework in Frameworks */,
+				F33F199D8BB8C33A7C48A8BA1FC25F71 /* EliqModels.framework in Frameworks */,
+				74C520A8617D2BFC3B203C465AF10BCD /* Foundation.framework in Frameworks */,
+				E48AC8FD72C49DB83DF3D9FB4AC2CDB8 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041C6D2D5486A9C824ADE86727F11421 /* Custom Text Fields */ = {
+		0D995F0DAA5090FFFFABF8E63388C0CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				22E4E422863B4DE74DEAACD1C04A195C /* EliqTextField.swift */,
-				2B0E804EAC079D7690ACF2FE4B1A3A6A /* EliqTextField.xib */,
-			);
-			name = "Custom Text Fields";
-			path = "EliqUI/Classes/Custom Text Fields";
-			sourceTree = "<group>";
-		};
-		064C01F8BA3B9FFD86D4AC83719579B3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1D3105232CD0DF7E0DAEAD3FEF4B1E1F /* EliqModels */,
-				982667BE408C9833BEA097AC6D6C8211 /* SnapKit */,
+				2A12B3CBC23430F0147257D18C7839AE /* EliqModels */,
+				ED93494F153ADDD52BB49C32C383EF5B /* SnapKit */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		12118D6FCCFE0BD2AEFF02D1A90A6424 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4C370A3AC27711C56C5063BE23EEAB48 /* EliqUI */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		12875E86B75EA565478D38A7CD04A1A0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3796C2764F99492413B1E947B7C1D7D5 /* EliqModels.modulemap */,
-				6D9966C4C2651776080749C91A851189 /* EliqModels.xcconfig */,
-				FDD6D0086366021D93AA602BCDE3AE98 /* EliqModels-dummy.m */,
-				069D33A5A73D7A8CDF5B209705CC5D4E /* EliqModels-Info.plist */,
-				769347F29FEE201446374E26551E8139 /* EliqModels-prefix.pch */,
-				5EA280056D6DE33209C62500A176E8DB /* EliqModels-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/EliqModels";
-			sourceTree = "<group>";
-		};
-		1D3105232CD0DF7E0DAEAD3FEF4B1E1F /* EliqModels */ = {
-			isa = PBXGroup;
-			children = (
-				1033A25AAB9AE1C07B3977D5A72C5642 /* Brand.swift */,
-				D4971E7B95421773742EBA221AC38BE5 /* EliqFlowModel.swift */,
-				7F70E23CF7C0F7FF5CC351BF814758D1 /* EliqModelsConfiguration.swift */,
-				D7A388DE93D4EEE2A128F244BAAA9DC9 /* Enums.swift */,
-				12875E86B75EA565478D38A7CD04A1A0 /* Support Files */,
-			);
-			name = EliqModels;
-			path = EliqModels;
 			sourceTree = "<group>";
 		};
 		23AFA481674AD111AF1ADBDC916F81FE /* iOS */ = {
@@ -304,6 +279,48 @@
 				14C5E396388410F727598BCC92B6C057 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		27D189093480FBA975B694D38E82CF69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFE1F06F9D64567E522666B06C4F61 /* SnapKit.modulemap */,
+				9C30678FD3A8D9865550325ED64F09D3 /* SnapKit.xcconfig */,
+				74C5073B5B7E3A1CEF9578AA7D6CA0C0 /* SnapKit-dummy.m */,
+				A5FB9300D9AD25122033999F0F369748 /* SnapKit-Info.plist */,
+				19D41AD981DC674F7E268F952A76F786 /* SnapKit-prefix.pch */,
+				B6E36D5C54BAEE229C0BFE3AA9D90A75 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		2A12B3CBC23430F0147257D18C7839AE /* EliqModels */ = {
+			isa = PBXGroup;
+			children = (
+				4F5D6EDD14381A502C240AE323D7732B /* AccessTokenResponseModel.swift */,
+				A993CFE23924538304AE0B6445F1307E /* Brand.swift */,
+				E4C32E9D15DB2AD38526BC5B42E41C2B /* EliqFlowModel.swift */,
+				509F74A3F127830FF92B1FC3A1CCD482 /* EliqModelsConfiguration.swift */,
+				6442769DB3B4AB1BA1145843896F0A30 /* Enums.swift */,
+				B51647A010B43A9484B792EEC2E2F1D1 /* FindUserResponseModel.swift */,
+				353BBB7B610BB386FB212691DAB72321 /* LoginResponseModel.swift */,
+				D8C9532FCB19EB275A469BEC6BEA9FDB /* OnboardingModel.swift */,
+				0A402F48852C2607F16D8F62180F90B4 /* SystemActionResponseModel.swift */,
+				C3A46F4A4607451401FF6D90D2057FD2 /* Support Files */,
+			);
+			name = EliqModels;
+			path = EliqModels;
+			sourceTree = "<group>";
+		};
+		3002F01EA38F1941DA600D4C5046F1E0 /* Custom Text Fields */ = {
+			isa = PBXGroup;
+			children = (
+				D40CF3E4049A3659EBD076127574F686 /* EliqTextField.swift */,
+				FC3239B5E01FE0E9E9F955FCCB6CE7CE /* EliqTextField.xib */,
+			);
+			name = "Custom Text Fields";
+			path = "EliqUI/Classes/Custom Text Fields";
 			sourceTree = "<group>";
 		};
 		3630DEB53518CEF2179AFF7EE76BB9A4 /* Frameworks */ = {
@@ -316,121 +333,68 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4A63993D8D41DED8F4AEBE188DCB5811 /* Custom Alert View */ = {
+		4F3374E1E6AABB04A2C692C609C53F13 /* Custom Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				BDC65274D103E1F6D73928DAA0AC7F39 /* EliqAlertViewController.swift */,
-			);
-			name = "Custom Alert View";
-			path = "EliqUI/Classes/Custom Alert View";
-			sourceTree = "<group>";
-		};
-		4C370A3AC27711C56C5063BE23EEAB48 /* EliqUI */ = {
-			isa = PBXGroup;
-			children = (
-				4A63993D8D41DED8F4AEBE188DCB5811 /* Custom Alert View */,
-				91A7ADFB07D3C18B3B6D1A2971A9A5D0 /* Custom Buttons */,
-				EAFC52B8F70142A42E9B6FE70B5AFCAD /* Custom Labels */,
-				041C6D2D5486A9C824ADE86727F11421 /* Custom Text Fields */,
-				68D8FA096806BCDF62379858D15BB9E3 /* Custom Views */,
-				BC4D45190BC2CD3FB73EFE86D5ED57F0 /* Extensions */,
-				518F3E7305D3078D6F690C6E5FD7EEF3 /* Pod */,
-				C5832B1FF1DDC1349C1ADF5574EB2FC2 /* Support Files */,
-			);
-			name = EliqUI;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		518F3E7305D3078D6F690C6E5FD7EEF3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				01C3B3CB7EA7BFDF820F80D26ABE6C73 /* EliqUI.podspec */,
-				89DF5C247499842F3951DCA0DD674886 /* LICENSE */,
-				7BCFDC0C869D52C2874C55FD3ED1DD3F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		68D8FA096806BCDF62379858D15BB9E3 /* Custom Views */ = {
-			isa = PBXGroup;
-			children = (
-				79051DC914B3BA1EC2D8443D51083AB6 /* EliqBackgroundView.swift */,
-				7E13DF9B3AF50E92E3A6574A4142235E /* EliqCheckboxView.swift */,
-				A4FC87F7C28641D01D02B895F9439E05 /* EliqCheckboxView.xib */,
-				A05B4C31497888EC49F547CE1163FBE3 /* EliqContactOptionView.xib */,
-				F17E4A1891081B1FF91424C6307FD9DF /* EliqScrollableStackView.swift */,
-				0B45049AB077895E1A020A7D91C3DB46 /* EliqTextFieldSet.swift */,
-				93EE0FFCE9326593D22C565007C74FD2 /* EliqTextFieldSet.xib */,
-			);
-			name = "Custom Views";
-			path = "EliqUI/Classes/Custom Views";
-			sourceTree = "<group>";
-		};
-		91A7ADFB07D3C18B3B6D1A2971A9A5D0 /* Custom Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				A723FBD12D80D8CD29B158ABD08C5AFC /* EliqButton.swift */,
-				A564DC5EB7C2E22E2ADC15FC8289DB89 /* EliqLoginButton.swift */,
+				82DAB8A5FF763701025ACDD2213802C0 /* EliqButton.swift */,
+				6168C2D95F01EB4E3C96D20246AA21E0 /* EliqLoginButton.swift */,
 			);
 			name = "Custom Buttons";
 			path = "EliqUI/Classes/Custom Buttons";
 			sourceTree = "<group>";
 		};
-		982667BE408C9833BEA097AC6D6C8211 /* SnapKit */ = {
+		60C2EC22146D31EB1E043729360381EF /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				42104B3B80A624B137BA3920E2582588 /* Constraint.swift */,
-				FB7B774B59AEF2D172E097F1F312CEF5 /* ConstraintAttributes.swift */,
-				7CF1CDFBB2B9A760C0D8B196E751A985 /* ConstraintConfig.swift */,
-				1EE79DB5BD31ABBCB41F17750A0370E2 /* ConstraintConstantTarget.swift */,
-				3B1F80764EB06EF586610E3D31175163 /* ConstraintDescription.swift */,
-				00662C826E8C466CED080CC738EC32AE /* ConstraintDSL.swift */,
-				9AD9E5081566005A8E0528333E61E359 /* ConstraintInsets.swift */,
-				6F38E32921F358E6561EDA1338C87825 /* ConstraintInsetTarget.swift */,
-				5388D082D4BA5A9BB5983949B4D18EF9 /* ConstraintItem.swift */,
-				C0D8706ABE3E804A4A0DDF8B6514061A /* ConstraintLayoutGuide.swift */,
-				6D4CABBB106BEBE5DA9FAF40921B444E /* ConstraintLayoutGuide+Extensions.swift */,
-				4017F02F4629803AEC2C9883E441082B /* ConstraintLayoutGuideDSL.swift */,
-				06F7430A5245FE2ECF4826E68D16CCA0 /* ConstraintLayoutSupport.swift */,
-				9C8143E946D4B6AC4F9B123EE30146B1 /* ConstraintLayoutSupportDSL.swift */,
-				8BC6BF796B5EC153678780E5541B01F6 /* ConstraintMaker.swift */,
-				073CC252BD4BA8F90AD65F9DEF4ACD68 /* ConstraintMakerEditable.swift */,
-				4EE0814908EDB8E7EC091AC3208AF501 /* ConstraintMakerExtendable.swift */,
-				D0895FEAB65706087D9B7F9A14D65D68 /* ConstraintMakerFinalizable.swift */,
-				B5609977869280DFBE9C00472AE2281D /* ConstraintMakerPriortizable.swift */,
-				75D5A2C02D184B45C2D2A3D94149E97D /* ConstraintMakerRelatable.swift */,
-				53B57688C4ED627CFECC8F9E5F99ADE1 /* ConstraintMultiplierTarget.swift */,
-				AF0129D3A158DE7C49270763395E4A1D /* ConstraintOffsetTarget.swift */,
-				521A071B1B7BF7D6902A4AEC59C4DF26 /* ConstraintPriority.swift */,
-				655CE587F230FC06D41055D72B27203C /* ConstraintPriorityTarget.swift */,
-				BB8A97FE227926A6F9D1E839E4CFD688 /* ConstraintRelatableTarget.swift */,
-				AFD8E7F717F70FBC0AD7018F25C39B18 /* ConstraintRelation.swift */,
-				C83DDFC2C9A8D2DC1ADC75D91FCA9256 /* ConstraintView.swift */,
-				758D4EEB1B4071677BBFEAE52D64D8D3 /* ConstraintView+Extensions.swift */,
-				365E51CD6542CDD0E1CCAAC333963742 /* ConstraintViewDSL.swift */,
-				3858582CE2CBCA57F699610B997B55AF /* Debugging.swift */,
-				68347B2941C04211A1AED029BE2FB473 /* LayoutConstraint.swift */,
-				F447FFBB84AB547F29B54D8A1C9B0A5F /* LayoutConstraintItem.swift */,
-				36A79D32C770CC13EB6FB88514349E09 /* Typealiases.swift */,
-				E24A5CA78A29F35D0C851F71149A8913 /* UILayoutSupport+Extensions.swift */,
-				9ACED52C00A50F0E13E77FFD7D1795B2 /* Support Files */,
+				750A41097AAFB50B178E16F4E9EBBEE1 /* EliqBackgroundView.swift */,
+				9F89FE7E3BAA029537A7945E23598A9B /* EliqCheckboxView.swift */,
+				C556A2E00630E93F8993504463263130 /* EliqCheckboxView.xib */,
+				48C5D4CA332264CC34AB0764534D4EEE /* EliqContactOptionView.xib */,
+				B70328D16C0FC06337789D6DB6E23D6C /* EliqScrollableStackView.swift */,
+				C9C2FB2464D26A2FF465AB6D74F3B12A /* EliqTextFieldSet.swift */,
+				C46618A843762E1DAF0CAC3FDE7BC51D /* EliqTextFieldSet.xib */,
+				78BE0F0171D2475B0762CA32A8BA0479 /* Onboarding Views */,
 			);
-			name = SnapKit;
-			path = SnapKit;
+			name = "Custom Views";
+			path = "EliqUI/Classes/Custom Views";
 			sourceTree = "<group>";
 		};
-		9ACED52C00A50F0E13E77FFD7D1795B2 /* Support Files */ = {
+		6C9EDE461E2FFD1D92087E432432286F /* EliqUI */ = {
 			isa = PBXGroup;
 			children = (
-				9672C9F78B14C9CBB2DD97EFB763B5B9 /* SnapKit.modulemap */,
-				B903BABF2F6596A7244AB22D9C66DC75 /* SnapKit.xcconfig */,
-				3BC5C528E86C41C5AA99960F040A542C /* SnapKit-dummy.m */,
-				3A28756DD2FBCEF694B560BCED3ED1DC /* SnapKit-Info.plist */,
-				4FA37B002E11CECB8A55987FFCB0CDD5 /* SnapKit-prefix.pch */,
-				4A81E5C1F54E848806904B0E409B5FE5 /* SnapKit-umbrella.h */,
+				8331BE87081F861E67A79456E08E7769 /* Custom Alert View */,
+				4F3374E1E6AABB04A2C692C609C53F13 /* Custom Buttons */,
+				D86EE2E1E333A3B837EB297EFCCF0F54 /* Custom Labels */,
+				3002F01EA38F1941DA600D4C5046F1E0 /* Custom Text Fields */,
+				60C2EC22146D31EB1E043729360381EF /* Custom Views */,
+				A915EF6948AF8BC5CDC4857D3725A085 /* Extensions */,
+				ADE51341734A42D74265862DF4D05813 /* Pod */,
+				D0379065110B08DFB23AD1DB6355ABE1 /* Protocols */,
+				ABCD1920D109E048F88D933AE166B727 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SnapKit";
+			name = EliqUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		78BE0F0171D2475B0762CA32A8BA0479 /* Onboarding Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E963DE5E8E3319F9B6A172557C42FAB /* EliqOnboardingView.swift */,
+				078D6C94C2B93E598605B37656BDE72B /* EliqOnboardingWithButtonView.swift */,
+				4F1CBD94ACE8725949B942378CA5689B /* EliqOnboardingWithButtonView.xib */,
+				9DEE172A05218689F20D2DBA6D2BF75C /* EliqOnboardingWithoutButtonView.xib */,
+			);
+			name = "Onboarding Views";
+			path = "Onboarding Views";
+			sourceTree = "<group>";
+		};
+		8331BE87081F861E67A79456E08E7769 /* Custom Alert View */ = {
+			isa = PBXGroup;
+			children = (
+				8738D3AFEE33ED7CF891023DD5B9A8DB /* EliqAlertViewController.swift */,
+			);
+			name = "Custom Alert View";
+			path = "EliqUI/Classes/Custom Alert View";
 			sourceTree = "<group>";
 		};
 		9FEB0DDD14CEFD64AD2DF49591985A20 /* Products */ = {
@@ -444,6 +408,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A915EF6948AF8BC5CDC4857D3725A085 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C24CD927F7BB6D06986A8E8D42559CA0 /* Extensions.swift */,
+			);
+			name = Extensions;
+			path = EliqUI/Classes/Extensions;
+			sourceTree = "<group>";
+		};
 		ABC1B59329A9DC0D74AE12884DC7FC37 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -452,39 +425,80 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC4D45190BC2CD3FB73EFE86D5ED57F0 /* Extensions */ = {
+		ABCD1920D109E048F88D933AE166B727 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A9EE7E57F2E841BAD9D5CDC54AF67D00 /* Extensions.swift */,
-			);
-			name = Extensions;
-			path = EliqUI/Classes/Extensions;
-			sourceTree = "<group>";
-		};
-		C5832B1FF1DDC1349C1ADF5574EB2FC2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4130DF80D88F93E7F8E955351AF2FAA2 /* EliqUI.modulemap */,
-				56A4D92C34FAD4BE4FD02FE288EDBAEA /* EliqUI.xcconfig */,
-				FD33EA3F9FFDF054E94D30B667793207 /* EliqUI-dummy.m */,
-				D14F3C2F6576C624F1A8FBF7456BFBD5 /* EliqUI-Info.plist */,
-				DD731BA198FAA3DDE6CEB9EA8244E494 /* EliqUI-prefix.pch */,
-				AF0ADBD7DE6CD4F2C4E57FD785892741 /* EliqUI-umbrella.h */,
+				437150AAEADABACD899E4D04AC6272EE /* EliqUI.modulemap */,
+				C37049637DB4E26F6A4C5FD430F8CDB0 /* EliqUI.xcconfig */,
+				61F81191A94C81F94CE3D8529A56AE10 /* EliqUI-dummy.m */,
+				25878F062A22C8197BDBAC64908FCD13 /* EliqUI-Info.plist */,
+				BCAC14EBCA9E0320480066AF17797B46 /* EliqUI-prefix.pch */,
+				A00B1B2C61FE8A6446EC157FB4F58E47 /* EliqUI-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EliqUI";
+			sourceTree = "<group>";
+		};
+		ADE51341734A42D74265862DF4D05813 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4AF27DF4C45E6E1206361C380DA7BE79 /* EliqUI.podspec */,
+				799CA905139B9527947A067C3C874576 /* LICENSE */,
+				8A80328853BCF79C0349E3FF30A6D1CB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B05CD7863B5042DA4372586D2E9C48ED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EDE461E2FFD1D92087E432432286F /* EliqUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C3A46F4A4607451401FF6D90D2057FD2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F8877739B5DA019D76DE164E2E3AD35 /* EliqModels.modulemap */,
+				B06DB9B131F70B6CBFC439D7C56FA0D0 /* EliqModels.xcconfig */,
+				37ECB3F1AE53A3851B404E16F873B173 /* EliqModels-dummy.m */,
+				D35F2DEBA1D78E2EB11C426E379B096A /* EliqModels-Info.plist */,
+				068DB17A64C1CC7A9DA8C1E5DDEAFD36 /* EliqModels-prefix.pch */,
+				55ABD139F2EAC9A527D1B6F8525EE902 /* EliqModels-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EliqModels";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				12118D6FCCFE0BD2AEFF02D1A90A6424 /* Development Pods */,
+				B05CD7863B5042DA4372586D2E9C48ED /* Development Pods */,
 				3630DEB53518CEF2179AFF7EE76BB9A4 /* Frameworks */,
-				064C01F8BA3B9FFD86D4AC83719579B3 /* Pods */,
+				0D995F0DAA5090FFFFABF8E63388C0CB /* Pods */,
 				9FEB0DDD14CEFD64AD2DF49591985A20 /* Products */,
 				ABC1B59329A9DC0D74AE12884DC7FC37 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0379065110B08DFB23AD1DB6355ABE1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4D81151CAD21D7F77655AA68628CE894 /* ViewImpl.swift */,
+			);
+			name = Protocols;
+			path = EliqUI/Classes/Protocols;
+			sourceTree = "<group>";
+		};
+		D86EE2E1E333A3B837EB297EFCCF0F54 /* Custom Labels */ = {
+			isa = PBXGroup;
+			children = (
+				F7D7512C52DC78C3974BAA30D7269BFF /* EliqLabel.swift */,
+			);
+			name = "Custom Labels";
+			path = "EliqUI/Classes/Custom Labels";
 			sourceTree = "<group>";
 		};
 		E9FA4E20E32592119010F4EEEDBB872D /* Pods-EliqUI_Tests */ = {
@@ -504,18 +518,60 @@
 			path = "Target Support Files/Pods-EliqUI_Tests";
 			sourceTree = "<group>";
 		};
-		EAFC52B8F70142A42E9B6FE70B5AFCAD /* Custom Labels */ = {
+		ED93494F153ADDD52BB49C32C383EF5B /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
-				2B19229F1367041F4D9DE00344B6C81D /* EliqLabel.swift */,
+				5BD09CD2F0F8BDBEDE990094699D659D /* Constraint.swift */,
+				3346B5F8A5DF3CBA32B14B3BDA399334 /* ConstraintAttributes.swift */,
+				AF0304A8949A43A007614819C8AFE302 /* ConstraintConfig.swift */,
+				E17A8F42740D958093F880E10B2C1219 /* ConstraintConstantTarget.swift */,
+				0E88FCFB82988023948629A23799D765 /* ConstraintDescription.swift */,
+				F552F3DF3FF2F2CC7142FC1FDB83E400 /* ConstraintDSL.swift */,
+				4E59A4256AD75DAB01FE2801EB36BEB1 /* ConstraintInsets.swift */,
+				5BB4A47092363081B1F950DA8A29652E /* ConstraintInsetTarget.swift */,
+				8FA5706138176D6C42E75F94B6A3D8A9 /* ConstraintItem.swift */,
+				9F2881E31F7300AC7925B516176BB619 /* ConstraintLayoutGuide.swift */,
+				C84B9BB2B0E0A180D927F3D70679C433 /* ConstraintLayoutGuide+Extensions.swift */,
+				85BF3856C9D5EFC1F5DDC7EA26137714 /* ConstraintLayoutGuideDSL.swift */,
+				F76ACBC5C872135B47FAE022DB36F33D /* ConstraintLayoutSupport.swift */,
+				9CB61531127A55C6F71D69EA362CD1BD /* ConstraintLayoutSupportDSL.swift */,
+				BAA14847F11A9533C9424CCA0737F9D9 /* ConstraintMaker.swift */,
+				D7EC0AD195514018A859B80438920536 /* ConstraintMakerEditable.swift */,
+				A9C45970CB0DBBBCCA4CB592B957CC05 /* ConstraintMakerExtendable.swift */,
+				A56923EE3D1FAC46A5A3E00AB43F4B98 /* ConstraintMakerFinalizable.swift */,
+				2BECF13ECACBA932D16BDF9C8971FEFA /* ConstraintMakerPriortizable.swift */,
+				39C2791502B6ED9D9870844811B250D3 /* ConstraintMakerRelatable.swift */,
+				D6834479F4509EF2EF41EBD6C23D8897 /* ConstraintMultiplierTarget.swift */,
+				EEF9D0ABD6B00B3AED0B306149C2E2C0 /* ConstraintOffsetTarget.swift */,
+				5C28F483241EBD8BC85FB67C3F739A3C /* ConstraintPriority.swift */,
+				6347DF859BA12E8548A1D383B52E3630 /* ConstraintPriorityTarget.swift */,
+				265B09BEC6D62CEDFD7FD87AD89A6904 /* ConstraintRelatableTarget.swift */,
+				0379A06F300C27300744F67332D30D20 /* ConstraintRelation.swift */,
+				37F47DF2A1A56D7EA000AA4EFEBF19EE /* ConstraintView.swift */,
+				0B1B48EF105FAF9A94A45111120DAC68 /* ConstraintView+Extensions.swift */,
+				D647A3A5035005497A0AB2A325B6B16A /* ConstraintViewDSL.swift */,
+				4EACD6194C9FC74B172BDD8FAE182C4A /* Debugging.swift */,
+				4EDB6855EF7B6404E5CC427D9E10257A /* LayoutConstraint.swift */,
+				4EEBA84F5F6244708B63BE484CD739EA /* LayoutConstraintItem.swift */,
+				A7ED09AC27EC32DF9C693004B26E8E67 /* Typealiases.swift */,
+				76B56FC87806B79ECD23FA86C9EFFFD1 /* UILayoutSupport+Extensions.swift */,
+				27D189093480FBA975B694D38E82CF69 /* Support Files */,
 			);
-			name = "Custom Labels";
-			path = "EliqUI/Classes/Custom Labels";
+			name = SnapKit;
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		27D805EED91D41EDE7CF2065588D44AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A17543E5D52CA0A0F2A68B5033B4EC /* EliqModels-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32283BCF682EFA3206209547DDE28498 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -524,27 +580,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7231F1D137BE40E8D83109CACD7B94D /* Headers */ = {
+		D0277269DA35D8EBA547159C0B34357C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F2EA261D00CCB537A89981F8A5720DD /* EliqUI-umbrella.h in Headers */,
+				CB4440193814BFB8C22AA61B18EE64C2 /* EliqUI-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C93D6692826CFBC57064D83FDB2841A7 /* Headers */ = {
+		D1BC49C04C868729603441C66313E8B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C4EE90D9477ED4F8FF51C9F35F63C84 /* EliqModels-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAC269FC7ADD5C97ED76F0294F70947F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89206B045C7661442AA2A2CCF94B03B7 /* SnapKit-umbrella.h in Headers */,
+				A16F76E9C85A6AB9116FB1235AFBDD04 /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,12 +622,12 @@
 		};
 		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E043ADB4C6CA986A335EA4AF096E124A /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildConfigurationList = 7486D937579E9C4A87F62FB2C742F071 /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				FAC269FC7ADD5C97ED76F0294F70947F /* Headers */,
-				AFEDF7BC00824C06C7DB2DD83AD50045 /* Sources */,
-				67AC576EDD5E1E940FB514135AE4D2E3 /* Frameworks */,
-				81F70097AE9454BBF0E198DF3D70FE2B /* Resources */,
+				D1BC49C04C868729603441C66313E8B4 /* Headers */,
+				2049ED5583BE343E4D5F1D7BBAF212E7 /* Sources */,
+				B28F400618774134183FC94D3B5353C8 /* Frameworks */,
+				A5B1465DA60FF75E39CCBE9F0338249E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -592,18 +640,18 @@
 		};
 		2E218E0402C21466C4B4B146D457733F /* EliqUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD533AF43CFA71ADB10C779F196395E3 /* Build configuration list for PBXNativeTarget "EliqUI" */;
+			buildConfigurationList = 3334EBBCDD06BC39F8990B127725F7FD /* Build configuration list for PBXNativeTarget "EliqUI" */;
 			buildPhases = (
-				A7231F1D137BE40E8D83109CACD7B94D /* Headers */,
-				C140B7CA79B5CC51774913DCB04E6837 /* Sources */,
-				7C30C3F4CF6FD4E1E36F4749125A321D /* Frameworks */,
-				B667DE2E3078AB8341DC6ACF94BDB36F /* Resources */,
+				D0277269DA35D8EBA547159C0B34357C /* Headers */,
+				8AAB41D76B95ED6191E6A17C8315D9AB /* Sources */,
+				F2C0FF43FA959D3F9793D13E98B0A783 /* Frameworks */,
+				B2535B24A19370F099591D2452C67400 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E828BB88E1A78932F7DB3EEE9CBDAA3 /* PBXTargetDependency */,
-				9EEFE281E8A6CEFC1E18C1B52D533572 /* PBXTargetDependency */,
+				9AB90CBE1725EC2D50574B2C26081F86 /* PBXTargetDependency */,
+				4EDA5F57BF28A50B283D6A5003545830 /* PBXTargetDependency */,
 			);
 			name = EliqUI;
 			productName = EliqUI;
@@ -612,12 +660,12 @@
 		};
 		D267D6074300813DBC65AEB89C7FC629 /* EliqModels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BBD4000D70AC61ABA9D0327ED94F538 /* Build configuration list for PBXNativeTarget "EliqModels" */;
+			buildConfigurationList = 8CA1C5957E68D4B9C67376D4C389E2DE /* Build configuration list for PBXNativeTarget "EliqModels" */;
 			buildPhases = (
-				C93D6692826CFBC57064D83FDB2841A7 /* Headers */,
-				03A6650FEC6FDBBA81E12EEF51BA53EF /* Sources */,
-				8B53B8C9546BD007D033AA038D2CF39E /* Frameworks */,
-				40D64114DEFF6262CBAE71DF658819DB /* Resources */,
+				27D805EED91D41EDE7CF2065588D44AB /* Headers */,
+				DD367304E32898E929EEE6BC846F030A /* Sources */,
+				B9385A6D8019D1E9DFDA4084BB6087C0 /* Frameworks */,
+				9C9AB1C6799D6C58AAB08E3571D1EF62 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -665,21 +713,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40D64114DEFF6262CBAE71DF658819DB /* Resources */ = {
+		9C9AB1C6799D6C58AAB08E3571D1EF62 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81F70097AE9454BBF0E198DF3D70FE2B /* Resources */ = {
+		A5B1465DA60FF75E39CCBE9F0338249E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B667DE2E3078AB8341DC6ACF94BDB36F /* Resources */ = {
+		B2535B24A19370F099591D2452C67400 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -689,15 +737,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03A6650FEC6FDBBA81E12EEF51BA53EF /* Sources */ = {
+		2049ED5583BE343E4D5F1D7BBAF212E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB95C4C175AD295EA2C2F3113E4C68E /* Brand.swift in Sources */,
-				C6825FB650F08517A9E16DF63D1866D3 /* EliqFlowModel.swift in Sources */,
-				087F0FB97123C774748AB68393A7A695 /* EliqModels-dummy.m in Sources */,
-				6E64853BDA9FBEA5F86F3EA42C87C2A8 /* EliqModelsConfiguration.swift in Sources */,
-				E4242ACBD4011107F6782D95E3FB9DD3 /* Enums.swift in Sources */,
+				74A4A6BE5D9CDD3B088199BB747BA0EF /* Constraint.swift in Sources */,
+				CAE16BB1BA6D7DE947BDF0CDC7376AE1 /* ConstraintAttributes.swift in Sources */,
+				44DC744E92653BCC10FDEFEAFFF2D0E4 /* ConstraintConfig.swift in Sources */,
+				0840E2BA6B18ED9C5A12E26E1508BA5F /* ConstraintConstantTarget.swift in Sources */,
+				AC745358A35651EEDF3F45662D96ECCB /* ConstraintDescription.swift in Sources */,
+				C684C06FBD6294CEE8407FE2A878128E /* ConstraintDSL.swift in Sources */,
+				D52D090CB81499D7FF5F80FF65626899 /* ConstraintInsets.swift in Sources */,
+				6AE2E46DB157AAC82370EDB72E2F2D5C /* ConstraintInsetTarget.swift in Sources */,
+				22D6CE157C78E6A23AD7484858DADDD1 /* ConstraintItem.swift in Sources */,
+				541C16EDDDA225B9627FD3952B638636 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				214DBAA2A0F995B5AD4651FD8A65EEFB /* ConstraintLayoutGuide.swift in Sources */,
+				3D44A82B1155907324E6EEEA224D2D7F /* ConstraintLayoutGuideDSL.swift in Sources */,
+				9BF48E6A68DF55D90D4CBF5B19D9BC81 /* ConstraintLayoutSupport.swift in Sources */,
+				76C11410E450AA2694FC55A0C4478D5A /* ConstraintLayoutSupportDSL.swift in Sources */,
+				C769E7FFFF1DEDA8238A3535DA395435 /* ConstraintMaker.swift in Sources */,
+				D722366CCAECC8938D875668C4B47B0F /* ConstraintMakerEditable.swift in Sources */,
+				235DB4FC25650C3FDE02525FCE25BFCE /* ConstraintMakerExtendable.swift in Sources */,
+				AD8F518F286FDB3C7541C8CA885F266F /* ConstraintMakerFinalizable.swift in Sources */,
+				32833EA5842BA5671C9B57F7AE3BD33A /* ConstraintMakerPriortizable.swift in Sources */,
+				0E35C9062001DD8BE26A1E37F672B6EC /* ConstraintMakerRelatable.swift in Sources */,
+				A64F8512AF9E98401290304E7AB2C928 /* ConstraintMultiplierTarget.swift in Sources */,
+				83AE07420A22EF4244219789762925E7 /* ConstraintOffsetTarget.swift in Sources */,
+				B49B49D89EAAD0F057E068D13CD59F92 /* ConstraintPriority.swift in Sources */,
+				5DA45317F7E157C3AE1ADF31A8764FCD /* ConstraintPriorityTarget.swift in Sources */,
+				C47E4C788574541CAF06B335C96FE404 /* ConstraintRelatableTarget.swift in Sources */,
+				ECD08248F2F1E9F42EDE3DAFF887C824 /* ConstraintRelation.swift in Sources */,
+				D7F28E97FD552E17872B867876AD7D65 /* ConstraintView+Extensions.swift in Sources */,
+				239606B9638F185DCAC58B366C98BC00 /* ConstraintView.swift in Sources */,
+				DD9D0D6FA54C20931BF6DDF5075AA3F3 /* ConstraintViewDSL.swift in Sources */,
+				D1509BFF6E009F1015891DD7CD58A7A8 /* Debugging.swift in Sources */,
+				956932C436866A4A91AA680001ECF89D /* LayoutConstraint.swift in Sources */,
+				D0B6EA0508407BA353FDB54DD2AD49B2 /* LayoutConstraintItem.swift in Sources */,
+				20BA7A769E3C5DF41F14956D9BC12852 /* SnapKit-dummy.m in Sources */,
+				133B9F6A84223C337DFB104963E574C5 /* Typealiases.swift in Sources */,
+				5D94F43990DDB891D84B9594410A0D64 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAB41D76B95ED6191E6A17C8315D9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE451C4D61D84B3FA7E799583DCCACE7 /* EliqAlertViewController.swift in Sources */,
+				97955C93D7A754842F477F776DB4CE8C /* EliqBackgroundView.swift in Sources */,
+				FCFE141582C4A4084DA6BEB32B960144 /* EliqButton.swift in Sources */,
+				47A3AEC0931F711D293E86D12683774E /* EliqCheckboxView.swift in Sources */,
+				69924EF61007B297AAD13A8FE6D7AE69 /* EliqCheckboxView.xib in Sources */,
+				BD0ABDEA8EE49F791F9090C8A771801E /* EliqContactOptionView.xib in Sources */,
+				D6D30A8A0A5102428E07315FA6704E97 /* EliqLabel.swift in Sources */,
+				3E522C42159A1DB075820E48174EB2A5 /* EliqLoginButton.swift in Sources */,
+				B290F363DD47FD5589D7FD41A55729CF /* EliqOnboardingView.swift in Sources */,
+				3F2849CDE027A250EA31C2B59F4065E3 /* EliqOnboardingWithButtonView.swift in Sources */,
+				FBFAD7524A0C60EAB4535F5C4F80646B /* EliqOnboardingWithButtonView.xib in Sources */,
+				A3DCC3C9E852EA673BF946746D55D6D8 /* EliqOnboardingWithoutButtonView.xib in Sources */,
+				F221A2DFE5C454951185163B63274912 /* EliqScrollableStackView.swift in Sources */,
+				2C8D50F6D70FDD1BEFFC42CBE4C5E534 /* EliqTextField.swift in Sources */,
+				BABC539E5EE809CF519A0C46516A2BFB /* EliqTextField.xib in Sources */,
+				C31EFEDF650F2A1EBB82199E805E0A26 /* EliqTextFieldSet.swift in Sources */,
+				251E943A105279BCF9D6341012597B4A /* EliqTextFieldSet.xib in Sources */,
+				A0090AD11AE7A8E89FA49287CB8AF94E /* EliqUI-dummy.m in Sources */,
+				A3247B157BCB2D3FFBEEF57A9FEC585D /* Extensions.swift in Sources */,
+				B8E75101402203DDE4B952B871F702EB /* ViewImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,67 +814,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFEDF7BC00824C06C7DB2DD83AD50045 /* Sources */ = {
+		DD367304E32898E929EEE6BC846F030A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15FB398CF6995051ADC28D1D996CFB0 /* Constraint.swift in Sources */,
-				A6D5DA34CC527F61545806E32AB9153A /* ConstraintAttributes.swift in Sources */,
-				B69E0C141D82830DCFA2FDB2BE5AD37C /* ConstraintConfig.swift in Sources */,
-				D693A0F3161CB1CC7C98016533FE06D9 /* ConstraintConstantTarget.swift in Sources */,
-				598FE87189941CA85DE005B07953BFA0 /* ConstraintDescription.swift in Sources */,
-				D00F796CEB71A3DC95F0ACBAB537AD3C /* ConstraintDSL.swift in Sources */,
-				C5E909B1D0DB60F2681BCD8456609554 /* ConstraintInsets.swift in Sources */,
-				C1EB4EDAB1D346BF09736FD9DB1B9AD0 /* ConstraintInsetTarget.swift in Sources */,
-				59258508F9306E4541BF00BCBCC59603 /* ConstraintItem.swift in Sources */,
-				0D753913EF2DA9BCCE44D436497628EF /* ConstraintLayoutGuide+Extensions.swift in Sources */,
-				20AA4A02C3F44108C238ED1BD1D2749F /* ConstraintLayoutGuide.swift in Sources */,
-				6F9F988A44E8281E90071E88BA0A2BC7 /* ConstraintLayoutGuideDSL.swift in Sources */,
-				ADE3CAAF9A22B926A08981FEC94A7F22 /* ConstraintLayoutSupport.swift in Sources */,
-				85AA5FAB7636AE22B83EA909E740AF88 /* ConstraintLayoutSupportDSL.swift in Sources */,
-				D370D4C4E7817BD7019DD9ECB620DDA7 /* ConstraintMaker.swift in Sources */,
-				A655DFDB9DF8F79FC9BDC4A531FE76D2 /* ConstraintMakerEditable.swift in Sources */,
-				722735B596C5D80FBACB1EBCA05CE60B /* ConstraintMakerExtendable.swift in Sources */,
-				7F7207401253F745C37B44D251EECD94 /* ConstraintMakerFinalizable.swift in Sources */,
-				25B5F4661019E8232062392A4DFDB74D /* ConstraintMakerPriortizable.swift in Sources */,
-				303750A87C535870FF5F6CE78FA36937 /* ConstraintMakerRelatable.swift in Sources */,
-				B78A55ACF19B327E5C5B6571976A7BE5 /* ConstraintMultiplierTarget.swift in Sources */,
-				BD3CEAD8D69BB17A2283A921C0F722C4 /* ConstraintOffsetTarget.swift in Sources */,
-				29CF344CFE663586521971AE30154BC4 /* ConstraintPriority.swift in Sources */,
-				849827842FA675FF04155079EC9E24B5 /* ConstraintPriorityTarget.swift in Sources */,
-				87B081FDBF0A0058709647285D572500 /* ConstraintRelatableTarget.swift in Sources */,
-				1189EBA11D28794C427632D041E1E670 /* ConstraintRelation.swift in Sources */,
-				B40BAA7CAD94EFE2CFB38C57CDACC22B /* ConstraintView+Extensions.swift in Sources */,
-				92CF107C8CEEDED742CBA2AB7C95032A /* ConstraintView.swift in Sources */,
-				3A64F72CD706AE45EEB95517A059452D /* ConstraintViewDSL.swift in Sources */,
-				841DCDE09428DE790DE595B1864DED92 /* Debugging.swift in Sources */,
-				AEF84AB346118D2631C57A055098CA11 /* LayoutConstraint.swift in Sources */,
-				EDF0A090B3620BC67F3D20D535973CC4 /* LayoutConstraintItem.swift in Sources */,
-				81B1C2BFEFB8EFB7424E7B888A4882D5 /* SnapKit-dummy.m in Sources */,
-				DE2A5D7C78A72E1EF2E97E5686D8D664 /* Typealiases.swift in Sources */,
-				0C7C135E889724AD43A74629CAD83E42 /* UILayoutSupport+Extensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C140B7CA79B5CC51774913DCB04E6837 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E2608F9C239EF4E2F6C7B47FDBCDFD5 /* EliqAlertViewController.swift in Sources */,
-				49479A3E9F586D1A67203C84A55C7ACD /* EliqBackgroundView.swift in Sources */,
-				85CB9FC3F3292368CF6DC08E959F0734 /* EliqButton.swift in Sources */,
-				50B89347CDB30F02881AFE61BB12AE2D /* EliqCheckboxView.swift in Sources */,
-				D18106FA12782D92FDAE7D180AC16768 /* EliqCheckboxView.xib in Sources */,
-				46AF9CF6806D5A3FAC8DD41C46653EAB /* EliqContactOptionView.xib in Sources */,
-				D104B8F3B3C36471EF2BF718B18A0376 /* EliqLabel.swift in Sources */,
-				CF6F82BE82812C3BC68AC773F3B611F7 /* EliqLoginButton.swift in Sources */,
-				23675F886EDFA54660B2E41B64F2C587 /* EliqScrollableStackView.swift in Sources */,
-				56D2AA2DAB613E2C20F6FC83CDC439BF /* EliqTextField.swift in Sources */,
-				EDF77D3AC9C41C57AC8DF9C9ACB7072A /* EliqTextField.xib in Sources */,
-				2CB9CAD8A23A3FE455AD72CE74535F78 /* EliqTextFieldSet.swift in Sources */,
-				6F4840E63F4D5A849152A312D8E5A12F /* EliqTextFieldSet.xib in Sources */,
-				2C729F992A63279F359CB24E123639EA /* EliqUI-dummy.m in Sources */,
-				2D54CCCF30518F50BEF71EBC3F995D53 /* Extensions.swift in Sources */,
+				700A0EEB4BE27F86FB574271E7C676DE /* AccessTokenResponseModel.swift in Sources */,
+				8C9D5FA5BA63022566DB4F7D196BBF4C /* Brand.swift in Sources */,
+				82F94653B64CBA962C44B6F342310618 /* EliqFlowModel.swift in Sources */,
+				35AE467FC36369B594447069021D47CD /* EliqModels-dummy.m in Sources */,
+				D9177B5D0A727FC4916569C364FECB60 /* EliqModelsConfiguration.swift in Sources */,
+				94F7C68A6D46AECCB65289A9557BD6EA /* Enums.swift in Sources */,
+				387B8D7245BEE31ADDA10143058AD3E7 /* FindUserResponseModel.swift in Sources */,
+				83463BC3C143D8B27145C99145CC2605 /* LoginResponseModel.swift in Sources */,
+				8470DFA3EE17F67E268A35BED1068065 /* OnboardingModel.swift in Sources */,
+				001856F3D0D045EBA02E11FBD9EEB044 /* SystemActionResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,17 +840,17 @@
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
 			targetProxy = 1D0453F39B7D076F9244564751172084 /* PBXContainerItemProxy */;
 		};
-		4E828BB88E1A78932F7DB3EEE9CBDAA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EliqModels;
-			target = D267D6074300813DBC65AEB89C7FC629 /* EliqModels */;
-			targetProxy = 279584552BA768E4FF2451AE34ADA534 /* PBXContainerItemProxy */;
-		};
-		9EEFE281E8A6CEFC1E18C1B52D533572 /* PBXTargetDependency */ = {
+		4EDA5F57BF28A50B283D6A5003545830 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 82AB7670BA74B79DCAA696EA0E96E562 /* PBXContainerItemProxy */;
+			targetProxy = 6629ABCAA4E41BBB7D19C6A38F888F6D /* PBXContainerItemProxy */;
+		};
+		9AB90CBE1725EC2D50574B2C26081F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EliqModels;
+			target = D267D6074300813DBC65AEB89C7FC629 /* EliqModels */;
+			targetProxy = 8F9AA3B67FA9487D1271D72EC4B1BA5A /* PBXContainerItemProxy */;
 		};
 		AB0424538619A1A5B0E284971E3B5369 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -809,6 +867,39 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1509012FA9D3CBAEC370ABE14D44CF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06DB9B131F70B6CBFC439D7C56FA0D0 /* EliqModels.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EliqModels/EliqModels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EliqModels/EliqModels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EliqModels/EliqModels.modulemap";
+				PRODUCT_MODULE_NAME = EliqModels;
+				PRODUCT_NAME = EliqModels;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -873,41 +964,9 @@
 			};
 			name = Debug;
 		};
-		7A19094601BE5504AF55ABD071ABB703 /* Release */ = {
+		A28A5508A5113A84778E4A4C34081764 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D9966C4C2651776080749C91A851189 /* EliqModels.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EliqModels/EliqModels-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EliqModels/EliqModels-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EliqModels/EliqModels.modulemap";
-				PRODUCT_MODULE_NAME = EliqModels;
-				PRODUCT_NAME = EliqModels;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9084BE7504270AE174E529C8B91A0C64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B903BABF2F6596A7244AB22D9C66DC75 /* SnapKit.xcconfig */;
+			baseConfigurationReference = 9C30678FD3A8D9865550325ED64F09D3 /* SnapKit.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -971,39 +1030,6 @@
 			};
 			name = Debug;
 		};
-		A5F2B0E0084F43276BD5A9DD5D29795B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56A4D92C34FAD4BE4FD02FE288EDBAEA /* EliqUI.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EliqUI/EliqUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EliqUI/EliqUI-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EliqUI/EliqUI.modulemap";
-				PRODUCT_MODULE_NAME = EliqUI;
-				PRODUCT_NAME = EliqUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1064,9 +1090,9 @@
 			};
 			name = Release;
 		};
-		B7A3FC4F369ECC58EE0F1F898F0D3174 /* Release */ = {
+		CE5A30B1D5B967B2FD76E70BD8080723 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B903BABF2F6596A7244AB22D9C66DC75 /* SnapKit.xcconfig */;
+			baseConfigurationReference = 9C30678FD3A8D9865550325ED64F09D3 /* SnapKit.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1097,9 +1123,9 @@
 			};
 			name = Release;
 		};
-		DC081C8EB9432A371AC0FE958AD9EF61 /* Debug */ = {
+		E8C83439AF5F5C122B901EE9C3910BE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56A4D92C34FAD4BE4FD02FE288EDBAEA /* EliqUI.xcconfig */;
+			baseConfigurationReference = C37049637DB4E26F6A4C5FD430F8CDB0 /* EliqUI.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1119,6 +1145,38 @@
 				MODULEMAP_FILE = "Target Support Files/EliqUI/EliqUI.modulemap";
 				PRODUCT_MODULE_NAME = EliqUI;
 				PRODUCT_NAME = EliqUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8EE5568D2A458F72922C6ACCDFF579A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06DB9B131F70B6CBFC439D7C56FA0D0 /* EliqModels.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EliqModels/EliqModels-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EliqModels/EliqModels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EliqModels/EliqModels.modulemap";
+				PRODUCT_MODULE_NAME = EliqModels;
+				PRODUCT_NAME = EliqModels;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1164,10 +1222,11 @@
 			};
 			name = Release;
 		};
-		EF3C704CAD472C7104EBF174CAFFE673 /* Debug */ = {
+		FA537C9A627F51A178D82BD89C4B2AC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D9966C4C2651776080749C91A851189 /* EliqModels.xcconfig */;
+			baseConfigurationReference = C37049637DB4E26F6A4C5FD430F8CDB0 /* EliqUI.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1177,27 +1236,37 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EliqModels/EliqModels-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EliqModels/EliqModels-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/EliqUI/EliqUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EliqUI/EliqUI-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EliqModels/EliqModels.modulemap";
-				PRODUCT_MODULE_NAME = EliqModels;
-				PRODUCT_NAME = EliqModels;
+				MODULEMAP_FILE = "Target Support Files/EliqUI/EliqUI.modulemap";
+				PRODUCT_MODULE_NAME = EliqUI;
+				PRODUCT_NAME = EliqUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3334EBBCDD06BC39F8990B127725F7FD /* Build configuration list for PBXNativeTarget "EliqUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C83439AF5F5C122B901EE9C3910BE8 /* Debug */,
+				FA537C9A627F51A178D82BD89C4B2AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1207,20 +1276,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BBD4000D70AC61ABA9D0327ED94F538 /* Build configuration list for PBXNativeTarget "EliqModels" */ = {
+		7486D937579E9C4A87F62FB2C742F071 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF3C704CAD472C7104EBF174CAFFE673 /* Debug */,
-				7A19094601BE5504AF55ABD071ABB703 /* Release */,
+				A28A5508A5113A84778E4A4C34081764 /* Debug */,
+				CE5A30B1D5B967B2FD76E70BD8080723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD533AF43CFA71ADB10C779F196395E3 /* Build configuration list for PBXNativeTarget "EliqUI" */ = {
+		8CA1C5957E68D4B9C67376D4C389E2DE /* Build configuration list for PBXNativeTarget "EliqModels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC081C8EB9432A371AC0FE958AD9EF61 /* Debug */,
-				A5F2B0E0084F43276BD5A9DD5D29795B /* Release */,
+				E8EE5568D2A458F72922C6ACCDFF579A /* Debug */,
+				1509012FA9D3CBAEC370ABE14D44CF86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1230,15 +1299,6 @@
 			buildConfigurations = (
 				A5EB4059D6542048FA161636DDB5ADB0 /* Debug */,
 				EA3A931B6A1C45485BE130F279AC5121 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E043ADB4C6CA986A335EA4AF096E124A /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9084BE7504270AE174E529C8B91A0C64 /* Debug */,
-				B7A3FC4F369ECC58EE0F1F898F0D3174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
